@@ -1183,8 +1183,8 @@ Powered by RDEP
 
     <div className="flex items-center">
 
-      <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-        <Truck className="h-4 w-4 text-white" />
+      <div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+        <Truck className="h-4 w-4 text-black" />
       </div>
 
       <div>
@@ -1200,7 +1200,7 @@ Powered by RDEP
     </div>
 
     {/* Status Badge */}
-    <div className="text-[10px] font-semibold bg-[#F1FBF8] text-[#2CBC9C] px-2 py-1 rounded-full">
+    <div className="text-[10px] font-semibold bg-[#FFF200] text-black px-2 py-1 rounded-full">
       In Transit
     </div>
 
@@ -1213,7 +1213,7 @@ Powered by RDEP
     {/* Confirmed */}
     <div className="flex flex-col items-center text-center flex-1">
 
-      <div className="w-8 h-8 rounded-full bg-[#2CBC9C] text-white flex items-center justify-center">
+      <div className="w-8 h-8 rounded-full bg-[#E31E24] text-white flex items-center justify-center">
         <CheckCircle2 className="h-4 w-4"/>
       </div>
 
@@ -1224,17 +1224,17 @@ Powered by RDEP
     </div>
 
 
-    <div className="flex-1 h-[3px] bg-[#2CBC9C]"></div>
+    <div className="flex-1 h-[3px] bg-[#E31E24]"></div>
 
 
     {/* In Transit */}
     <div className="flex flex-col items-center text-center flex-1">
 
-      <div className="w-8 h-8 rounded-full border-2 border-[#2CBC9C] text-[#2CBC9C] flex items-center justify-center">
+      <div className="w-8 h-8 rounded-full border-2 border-[#E31E24] text-[#E31E24] flex items-center justify-center">
         <Truck className="h-4 w-4"/>
       </div>
 
-      <span className="text-[10px] font-medium text-[#2CBC9C] mt-1">
+      <span className="text-[10px] font-medium text-[#E31E24] mt-1">
         In Transit
       </span>
 
@@ -1261,7 +1261,7 @@ Powered by RDEP
 
 
   {/* Delivery Info */}
-  <div className="bg-gray-50 rounded-xl border border-gray-200 p-3 text-center mb-3">
+  <div className="bg-yellow-50 rounded-xl border border-yellow-200 p-3 text-center mb-3">
 
     <p className="text-[11px] text-gray-600">
       Estimated Delivery
@@ -1276,11 +1276,11 @@ Powered by RDEP
 
   {/* Track Button */}
   <a
-    href="https://www.croma.com"
+    href="https://www.jbhifi.com.au"
     target="_blank"
     rel="noopener noreferrer"
   >
-    <button className="w-full bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 transition active:scale-[0.98]">
+    <button className="w-full bg-[#008A00] text-white h-10 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 transition active:scale-[0.98]">
 
       Track Order
 
@@ -1297,12 +1297,12 @@ Powered by RDEP
 
 {feedbackSubmitted ? (
 
-<div className="text-center py-6 bg-[#F1FBF8] rounded-xl border border-[#D6F2EC]">
+<div className="text-center py-6 bg-yellow-50 rounded-xl border border-yellow-200">
 
-  <div className="w-12 h-12 bg-[#D6F2EC] rounded-full flex items-center justify-center mx-auto mb-3">
+  <div className="w-12 h-12 bg-[#FFF200] rounded-full flex items-center justify-center mx-auto mb-3">
 
     <svg
-      className="w-6 h-6 text-[#2CBC9C]"
+      className="w-6 h-6 text-black"
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
@@ -1317,7 +1317,7 @@ Powered by RDEP
   </div>
 
   <div className="text-xs text-gray-600">
-    Your feedback helps us improve the Croma shopping experience.
+    Your feedback helps us improve the JB Hi-Fi shopping experience.
   </div>
 
 </div>
@@ -1326,140 +1326,144 @@ Powered by RDEP
 
 <div className="space-y-4">
 
-  {/* Header */}
-  <div className="flex items-center">
+{/* Header */}
 
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-      <Star className="h-4 w-4 text-white" />
-    </div>
+<div className="flex items-center">
 
-    <h3 className="text-base font-semibold text-gray-900">
-      Rate Your Shopping Experience
-    </h3>
+<div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+  <Star className="h-4 w-4 text-black" />
+</div>
 
-  </div>
-
-
-  {/* Star Rating */}
-  <div className="flex justify-center gap-3 py-2">
-
-    {[1,2,3,4,5].map((star) => (
-
-      <button
-        key={star}
-        onClick={() => {
-          setRating(star)
-          setSelectedTags([])
-        }}
-        className="transition-transform active:scale-90"
-      >
-
-        <Star
-          className={`h-8 w-8 ${
-            star <= rating
-              ? "fill-[#2CBC9C] text-[#2CBC9C]"
-              : "text-gray-300"
-          }`}
-        />
-
-      </button>
-
-    ))}
-
-  </div>
-
-
-  {/* Dynamic Feedback Tags */}
-  {rating > 0 && (
-
-    <div className="space-y-2">
-
-      <div className="text-[11px] font-semibold text-gray-500 uppercase tracking-wide">
-        Tell us more
-      </div>
-
-      <div className="flex flex-wrap gap-2">
-
-        {(rating >= 4
-          ? [
-              "Great product quality",
-              "Helpful staff",
-              "Smooth checkout",
-              "Fast billing",
-              "Good value",
-              "Easy installation",
-            ]
-          : [
-              "Long checkout time",
-              "Product not available",
-              "Staff assistance needed",
-              "Price higher than expected",
-              "Installation delay",
-              "Packaging issue",
-            ]
-        ).map((item) => (
-
-          <button
-            key={item}
-            onClick={() =>
-              setSelectedTags((prev) =>
-                prev.includes(item)
-                  ? prev.filter((tag) => tag !== item)
-                  : [...prev, item]
-              )
-            }
-            className={`text-[11px] px-3 py-1.5 rounded-full border transition ${
-              selectedTags.includes(item)
-                ? "bg-[#2CBC9C] text-white border-[#2CBC9C]"
-                : "border-gray-200 bg-gray-50"
-            }`}
-          >
-            {item}
-          </button>
-
-        ))}
-
-      </div>
-
-    </div>
-
-  )}
-
-
-  {/* Optional Comment */}
-  <div className="space-y-1">
-
-    <label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
-      Additional Feedback (Optional)
-    </label>
-
-    <textarea
-      rows={3}
-      placeholder="Tell us about your Croma shopping experience"
-      className="w-full p-3 text-xs border border-gray-200 rounded-xl focus:ring-1 focus:ring-[#2CBC9C] focus:border-[#2CBC9C] outline-none resize-none"
-      value={feedbackText}
-      onChange={(e) => setFeedbackText(e.target.value)}
-    />
-
-  </div>
-
-
-  {/* Submit Button */}
-  <button
-    className="w-full bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
-    onClick={handleFeedbackSubmit}
-    disabled={!rating}
-  >
-    Submit Feedback
-  </button>
-
-
-  <p className="text-[10px] text-center text-gray-400">
-    Your feedback helps us improve future shopping experiences.
-  </p>
+<h3 className="text-base font-semibold text-gray-900">
+  Rate Your Shopping Experience
+</h3>
 
 </div>
 
+
+{/* Star Rating */}
+
+<div className="flex justify-center gap-3 py-2">
+
+{[1,2,3,4,5].map((star) => (
+
+<button
+  key={star}
+  onClick={() => {
+    setRating(star)
+    setSelectedTags([])
+  }}
+  className="transition-transform active:scale-90"
+>
+
+<Star
+  className={`h-8 w-8 ${
+    star <= rating
+      ? "fill-[#E31E24] text-[#E31E24]"
+      : "text-gray-300"
+  }`}
+/>
+
+</button>
+
+))}
+
+</div>
+
+
+{/* Dynamic Feedback Tags */}
+
+{rating > 0 && (
+
+<div className="space-y-2">
+
+<div className="text-[11px] font-semibold text-gray-500 uppercase tracking-wide">
+  Tell us more
+</div>
+
+<div className="flex flex-wrap gap-2">
+
+{(rating >= 4
+  ? [
+      "Great product quality",
+      "Helpful staff",
+      "Smooth checkout",
+      "Fast billing",
+      "Good value",
+      "Easy installation",
+    ]
+  : [
+      "Long checkout time",
+      "Product not available",
+      "Staff assistance needed",
+      "Price higher than expected",
+      "Installation delay",
+      "Packaging issue",
+    ]
+).map((item) => (
+
+<button
+  key={item}
+  onClick={() =>
+    setSelectedTags((prev) =>
+      prev.includes(item)
+        ? prev.filter((tag) => tag !== item)
+        : [...prev, item]
+    )
+  }
+  className={`text-[11px] px-3 py-1.5 rounded-full border transition ${
+    selectedTags.includes(item)
+      ? "bg-[#FFF200] text-black border-[#FFF200]"
+      : "border-gray-200 bg-gray-50"
+  }`}
+>
+  {item}
+</button>
+
+))}
+
+</div>
+
+</div>
+
+)}
+
+
+{/* Optional Comment */}
+
+<div className="space-y-1">
+
+<label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
+  Additional Feedback (Optional)
+</label>
+
+<textarea
+  rows={3}
+  placeholder="Tell us about your JB Hi-Fi shopping experience"
+  className="w-full p-3 text-xs border border-gray-200 rounded-xl focus:ring-1 focus:ring-[#FFF200] focus:border-[#FFF200] outline-none resize-none"
+  value={feedbackText}
+  onChange={(e) => setFeedbackText(e.target.value)}
+/>
+
+</div>
+
+
+{/* Submit Button */}
+
+<button
+className="w-full bg-[#008A00] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
+onClick={handleFeedbackSubmit}
+disabled={!rating}
+>
+Submit Feedback
+</button>
+
+
+<p className="text-[10px] text-center text-gray-400">
+Your feedback helps us improve future shopping experiences.
+</p>
+
+</div>
 
 )}
 
