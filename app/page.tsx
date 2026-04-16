@@ -1657,7 +1657,6 @@ className="text-xs font-medium text-black"
 
 <div className="text-[11px] text-gray-500 mb-3 bg-gray-50 p-2 rounded-lg">
 Items may be eligible for repair, replacement, or refund depending on the issue and product condition. 
-Proof of purchase is required.
 </div>
 
 
