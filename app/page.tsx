@@ -2146,11 +2146,6 @@ Garmin
 Garmin Epix Pro Gen 2 Sapphire Edition 47mm
 </div>
 
-<div className="flex items-center text-yellow-400 text-xs mb-2">
-★★★★★
-<span className="text-gray-500 ml-1">5.0</span>
-</div>
-
 <div className="relative border border-black">
 
 <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-600 text-white text-[9px] px-2 py-[2px] font-bold">
@@ -2201,12 +2196,7 @@ Bose
 </div>
 
 <div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
-Bose QuietComfort Ultra Wireless Noise Cancelling Earbuds
-</div>
-
-<div className="flex items-center text-yellow-400 text-xs mb-2">
-★★★★★
-<span className="text-gray-500 ml-1">4.8</span>
+Bose QuietComfort Noise Cancelling Earbuds
 </div>
 
 <div className="relative border border-black">
@@ -2262,11 +2252,6 @@ Samsung
 Samsung Galaxy S26 Ultra 5G 256GB (Black)
 </div>
 
-<div className="flex items-center text-yellow-400 text-xs mb-2">
-★★★★★
-<span className="text-gray-500 ml-1">5.0</span>
-</div>
-
 <div className="relative border border-black">
 
 <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-600 text-white text-[9px] px-2 py-[2px] font-bold">
@@ -2318,11 +2303,6 @@ Hisense
 
 <div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
 Hisense 65" Q6QAU 4K QLED Smart TV (2025)
-</div>
-
-<div className="flex items-center text-yellow-400 text-xs mb-2">
-★★★★☆
-<span className="text-gray-500 ml-1">4.5</span>
 </div>
 
 <div className="relative border border-black">
@@ -2436,59 +2416,73 @@ Explore More Deals
 
 {/* Header */}
 
-  <div className="flex items-center mb-3">
+<div className="flex items-center mb-3">
 
-<div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-  <Send className="h-4 w-4 text-white" />
+<div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+  <Send className="h-4 w-4 text-black" />
 </div>
 
 <h3 className="text-sm font-semibold text-gray-900">
   Need Help?
 </h3>
 
-  </div>
+</div>
 
-  <div className="grid grid-cols-3 gap-3">
+<div className="grid grid-cols-3 gap-3">
 
 {/* Chat Support */}
 <button
   onClick={handleWhatsApp}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.97] transition"
 >
-  <MessageSquare className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Chat
-  </span>
+
+<div className="bg-[#FFF200] p-2 rounded-lg mb-1">
+  <MessageSquare className="h-4 w-4 text-black" />
+</div>
+
+<span className="text-[11px] font-semibold text-gray-800">
+  Chat
+</span>
+
 </button>
 
 
 {/* Call Support */}
 <button
   onClick={handleCall}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.97] transition"
 >
-  <Phone className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Call
-  </span>
+
+<div className="bg-[#FFF200] p-2 rounded-lg mb-1">
+  <Phone className="h-4 w-4 text-black" />
+</div>
+
+<span className="text-[11px] font-semibold text-gray-800">
+  Call
+</span>
+
 </button>
 
 
 {/* Service Request */}
 <button
   onClick={handleEmail}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
+  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.97] transition"
 >
-  <Wrench className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Service
-  </span>
-</button>
 
-  </div>
+<div className="bg-[#FFF200] p-2 rounded-lg mb-1">
+  <Wrench className="h-4 w-4 text-black" />
+</div>
+
+<span className="text-[11px] font-semibold text-gray-800">
+  Service
+</span>
+
+</button>
 
 </div>
 
+</div>
 
       {/* Social Media & Store Details */}
 
