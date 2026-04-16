@@ -1213,7 +1213,7 @@ Powered by RDEP
     {/* Confirmed */}
     <div className="flex flex-col items-center text-center flex-1">
 
-      <div className="w-8 h-8 rounded-full bg-[#E31E24] text-white flex items-center justify-center">
+      <div className="w-8 h-8 rounded-full bg-[#008A00] text-white flex items-center justify-center">
         <CheckCircle2 className="h-4 w-4"/>
       </div>
 
@@ -1224,17 +1224,17 @@ Powered by RDEP
     </div>
 
 
-    <div className="flex-1 h-[3px] bg-[#E31E24]"></div>
+    <div className="flex-1 h-[3px] bg-[#008A00]"></div>
 
 
     {/* In Transit */}
     <div className="flex flex-col items-center text-center flex-1">
 
-      <div className="w-8 h-8 rounded-full border-2 border-[#E31E24] text-[#E31E24] flex items-center justify-center">
+      <div className="w-8 h-8 rounded-full border-2 border-[#008A00] text-[#008A00] flex items-center justify-center">
         <Truck className="h-4 w-4"/>
       </div>
 
-      <span className="text-[10px] font-medium text-[#E31E24] mt-1">
+      <span className="text-[10px] font-medium text-[#008A00] mt-1">
         In Transit
       </span>
 
@@ -1280,7 +1280,7 @@ Powered by RDEP
     target="_blank"
     rel="noopener noreferrer"
   >
-    <button className="w-full bg-[#008A00] text-white h-10 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 transition active:scale-[0.98]">
+    <button className="w-full bg-[#FFF200] text-black h-10 text-xs font-semibold rounded-xl flex items-center justify-center gap-1 transition active:scale-[0.98]">
 
       Track Order
 
@@ -1451,7 +1451,7 @@ Powered by RDEP
 {/* Submit Button */}
 
 <button
-className="w-full bg-[#008A00] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
+className="w-full bg-[#FFF200] text-black h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
 onClick={handleFeedbackSubmit}
 disabled={!rating}
 >
@@ -1637,7 +1637,7 @@ Returns, Repairs & Exchanges
 </div>
 
 <div className="text-xs text-gray-500">
-Start a request for a product issue or change of mind
+Start a request for a product issue
 </div>
 </div>
 
