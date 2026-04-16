@@ -824,18 +824,18 @@ Powered by RDEP
       >
         <div className="flex flex-col w-full gap-3 pb-4 px-3">
 
-         {/* Top Section */}
+        {/* Top Section */}
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 overflow-hidden">
 
   {/* Header */}
-  <div className="bg-black px-5 pt-5 pb-6 text-white">
+  <div className="bg-[#FFF200] px-5 pt-5 pb-6 text-black">
 
     <div className="flex items-start justify-between">
 
       {/* Logo */}
       <img
-        src="https://media-ik.croma.com/prod/https://media.tatacroma.com/Croma%20Assets/CMS/Category%20icon/Final%20icon/Croma_Logo_acrkvn.svg"
-        alt="Croma"
+        src="https://upload.wikimedia.org/wikipedia/commons/2/2e/JB_Hi-Fi_logo.svg"
+        alt="JB Hi-Fi"
         className="h-10 w-auto"
       />
 
@@ -854,40 +854,40 @@ Powered by RDEP
 
     {/* Greeting */}
     <div className="mt-4">
-      <div className="text-lg font-semibold">
+      <div className="text-lg font-bold">
         Thank you {customerName}
       </div>
 
-      <div className="text-sm text-gray-300">
+      <div className="text-sm text-black/70">
         We hope to see you again soon!
       </div>
     </div>
 
 
     {/* Amount Card */}
-    <div className="mt-4 bg-gradient-to-r from-[#2CBC9C] to-[#46A9A3] rounded-xl p-4 flex justify-between items-center">
+    <div className="mt-4 bg-black rounded-xl p-4 flex justify-between items-center">
 
       <div>
-        <div className="text-xs text-white/90">
+        <div className="text-xs text-white/80">
           Total Amount Paid
         </div>
 
-        <div className="text-3xl font-semibold text-white">
-          ₹{currentReceipt.total.toLocaleString("en-IN")}
+        <div className="text-3xl font-semibold text-[#FFF200]">
+          ${currentReceipt.total.toLocaleString("en-AU")}
         </div>
       </div>
 
-      <ShoppingBagIcon className="h-7 w-7 text-white/90" />
+      <ShoppingBagIcon className="h-7 w-7 text-[#FFF200]" />
 
     </div>
 
-  </div>  {/* ✅ THIS WAS MISSING */}
+  </div>
 
 
   {/* Receipt Metadata */}
   <div className="p-4 bg-white">
 
-    <div className="bg-[#E8F7F4] rounded-xl border border-[#CFEDEA] p-3 space-y-2">
+    <div className="bg-yellow-50 rounded-xl border border-yellow-200 p-3 space-y-2">
 
       {/* Receipt ID */}
       <div className="flex justify-between items-center">
@@ -925,7 +925,7 @@ Powered by RDEP
         </span>
 
         <span className="text-sm font-semibold text-right">
-          Croma {currentReceipt.branch}
+          JB Hi-Fi {currentReceipt.branch}
         </span>
 
       </div>
