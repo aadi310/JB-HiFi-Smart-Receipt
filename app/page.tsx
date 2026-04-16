@@ -945,11 +945,11 @@ Powered by RDEP
 <div className="flex items-center justify-between mb-4">
 
 <h3 className="text-lg font-bold flex items-center text-black">
-  <ShoppingBagIcon className="mr-2 h-5 w-5 text-[#FFF200]" />
+  <ShoppingBagIcon className="mr-2 h-5 w-5 text-[#E31E24]" />
   Purchased Products
 </h3>
 
-<span className="text-xs font-medium border border-black text-black px-2 py-1 rounded-full">
+<span className="text-xs font-bold border border-[#E31E24] text-white bg-[#E31E24] px-2 py-1 rounded-full">
   {currentReceipt.items.length} items
 </span>
 
@@ -964,7 +964,7 @@ Powered by RDEP
 
 <div
   key={product.id}
-  className="bg-white rounded-xl p-4 border border-gray-200"
+  className="bg-white rounded-xl p-4 border border-gray-200 hover:border-[#FFF200] transition"
 >
 
 {/* Product Row */}
@@ -977,14 +977,14 @@ Powered by RDEP
 <div className="flex items-start flex-1">
 
 <ChevronRight
-  className={`h-4 w-4 mr-2 mt-[2px] text-black transition-transform duration-200 ${
+  className={`h-4 w-4 mr-2 mt-[2px] text-[#E31E24] transition-transform duration-200 ${
     expandedProducts.includes(product.id) ? "rotate-90" : ""
   }`}
 />
 
 <div>
 
-<div className="font-medium text-sm text-gray-900 leading-snug">
+<div className="font-semibold text-sm text-gray-900 leading-snug">
   {product.name}
 </div>
 
@@ -1003,7 +1003,7 @@ Powered by RDEP
   Qty {product.quantity}
 </div>
 
-<div className="font-semibold text-sm text-black">
+<div className="font-bold text-sm text-[#E31E24]">
   A${(product.price * product.quantity).toLocaleString("en-AU")}
 </div>
 
@@ -1038,15 +1038,6 @@ Powered by RDEP
 <div className="font-medium">{product.warranty}</div>
 </div>
 
-{product.installationAvailable && (
-<div className="pt-1 text-black font-semibold">
-  Installation: {product.installationStatus}
-  {product.installationScheduledDate && (
-    <> • {product.installationScheduledDate}</>
-  )}
-</div>
-)}
-
 </div>
 
 )}
@@ -1058,7 +1049,7 @@ Powered by RDEP
 
 <button
   onClick={() => toggleItemFeedback(product.id)}
-  className="text-xs text-black font-medium"
+  className="text-xs text-[#E31E24] font-semibold"
 >
   {expandedItemFeedback.includes(product.id)
     ? "Hide product feedback"
@@ -1097,34 +1088,6 @@ Powered by RDEP
 
 </div>
 
-
-<div className="flex flex-wrap gap-2 justify-center">
-
-{["Build Quality","Performance","Design","Value"].map((tag) => {
-
-const active =
-  itemFeedback[product.id]?.tags?.includes(tag)
-
-return (
-
-<button
-  key={tag}
-  onClick={() => toggleItemTag(product.id, tag)}
-  className={`text-[11px] px-2 py-1 rounded-full border ${
-    active
-      ? "bg-[#FFF200] text-black border-[#FFF200]"
-      : "border-gray-200"
-  }`}
->
-  {tag}
-</button>
-
-)
-
-})}
-
-</div>
-
 </div>
 
 )}
@@ -1150,9 +1113,9 @@ return (
 <span>A${currentReceipt.tax.toLocaleString("en-AU")}</span>
 </div>
 
-<div className="flex justify-between text-base font-semibold pt-2 border-t border-gray-200">
+<div className="flex justify-between text-base font-bold pt-3 border-t border-gray-200 bg-[#FFF200] px-3 py-2 rounded-lg">
 <span>Total Paid</span>
-<span className="text-black">
+<span>
   A${currentReceipt.total.toLocaleString("en-AU")}
 </span>
 </div>
@@ -1168,10 +1131,10 @@ return (
 
 <div className="flex items-center">
 
-<div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center mr-3">
+<div className="w-8 h-8 bg-[#008A00] rounded-lg flex items-center justify-center mr-3">
 
 <svg
-  className="w-4 h-4 text-[#FFF200]"
+  className="w-4 h-4 text-white"
   fill="none"
   stroke="currentColor"
   viewBox="0 0 24 24"
@@ -1196,7 +1159,7 @@ return (
 
 </div>
 
-<div className="text-sm font-semibold text-black">
+<div className="text-sm font-bold text-[#E31E24]">
   A${currentReceipt.total.toLocaleString("en-AU")}
 </div>
 
