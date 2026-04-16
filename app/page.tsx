@@ -2140,7 +2140,7 @@ className="w-full object-contain h-36 mb-2"
 Garmin
 </div>
 
-<div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
+<div className="text-xs font-semibold text-gray-900 mb-3 leading-snug">
 Garmin Epix Pro Gen 2 Sapphire Edition 47mm
 </div>
 
@@ -2193,7 +2193,7 @@ className="w-full object-contain h-36 mb-2"
 Bose
 </div>
 
-<div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
+<div className="text-xs font-semibold text-gray-900 mb-3 leading-snug">
 Bose QuietComfort Noise Cancelling Earbuds
 </div>
 
@@ -2246,7 +2246,7 @@ className="w-full object-contain h-36 mb-2"
 Samsung
 </div>
 
-<div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
+<div className="text-xs font-semibold text-gray-900 mb-3 leading-snug">
 Samsung Galaxy S26 Ultra 5G 256GB (Black)
 </div>
 
@@ -2299,7 +2299,7 @@ className="w-full object-contain h-36 mb-2"
 Hisense
 </div>
 
-<div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
+<div className="text-xs font-semibold text-gray-900 mb-3 leading-snug">
 Hisense 65" Q6QAU 4K QLED Smart TV (2025)
 </div>
 
