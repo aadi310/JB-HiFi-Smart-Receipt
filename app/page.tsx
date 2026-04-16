@@ -244,168 +244,168 @@ export default function Home() {
 const receipts = {
 
   current: {
-    id: "CRBLR7891XQ12",
+    id: "JBMC816123",
     date: "05-03-2026",
     time: "19:22:18",
-    associate: "Rahul Kumar",
-    branch: "Brigade Road",
+    associate: "Ethan Clarke",
+    branch: "Melbourne Central",
 
     items: [
       {
         id: 0,
-        name: "LG 1.5 Ton Dual Inverter Split AC",
-        variant: "5 Star 2026 Model",
-        description: "AI Convertible 6-in-1 cooling",
-        price: 46990,
+        name: "Apple iPhone 17 Pro Max 256GB",
+        variant: "Cosmic Orange",
+        description: "MODEL: MFYN4X/A",
+        price: 2199,
         quantity: 1,
-        category: "Air Conditioners",
-        baseAmount: 39822,
-        tax: 7168,
-        itemCode: "LGAC15INV26",
-        serialNumber: "LGAC15X9921",
-        warranty: "1 Year Product / 10 Year Compressor",
-
-        installationAvailable: true,
-        installationStatus: "Scheduled",
-        installationScheduledDate: "07 Mar 2026"
+        category: "Smartphones",
+        baseAmount: 1999,
+        tax: 200,
+        itemCode: "816123",
+        serialNumber: "IP17PM256CO",
+        warranty: "1 Year Apple Warranty",
+        sku: "816123",
+        plu: "195950639070"
       },
 
       {
         id: 1,
-        name: "Apple AirPods (3rd Generation)",
-        variant: "Wireless Charging Case",
-        description: "Spatial audio with dynamic head tracking",
-        price: 19900,
+        name: "Bose SoundLink Micro Bluetooth Speaker",
+        variant: "Stone Blue",
+        description: "Portable waterproof Bluetooth speaker",
+        price: 99,
         quantity: 1,
         category: "Audio",
-        baseAmount: 16864,
-        tax: 3036,
-        itemCode: "AIRPODS3",
-        serialNumber: "APD3X77P21",
-        warranty: "1 Year Apple Warranty"
+        baseAmount: 90,
+        tax: 9,
+        itemCode: "584215",
+        serialNumber: "BOSSLM78412",
+        warranty: "1 Year Bose Warranty",
+        sku: "584215",
+        plu: "17817768412"
       }
     ],
 
-    subtotal: 56686,
-    tax: 10204,
-    total: 66890
+    subtotal: 2089,
+    tax: 209,
+    total: 2298
   },
 
 
   hist1: {
-    id: "CRBLR6719YT92",
+    id: "JBMC791679",
     date: "20-01-2026",
     time: "14:22:18",
-    associate: "Anita Sharma",
-    branch: "Indiranagar",
+    associate: "Olivia Martin",
+    branch: "Melbourne Central",
 
     items: [
       {
         id: 0,
-        name: "Samsung 55\" Crystal 4K UHD Smart TV",
-        variant: "CU7700 55 inch",
-        description: "Crystal Processor 4K with HDR10+",
-        price: 54990,
+        name: "Ninja SLUSHI Professional Frozen Drink Maker",
+        variant: "FS301ANZ",
+        description: "Professional frozen drink & slushie maker",
+        price: 349,
         quantity: 1,
-        category: "Televisions",
-        baseAmount: 46517,
-        tax: 8473,
-        itemCode: "SAM55CU7700",
-        serialNumber: "SAMTV55CU7721",
-        warranty: "1 Year Samsung Warranty",
-
-        installationAvailable: true,
-        installationStatus: "Completed",
-        installationScheduledDate: "22 Jan 2026"
+        category: "Kitchen Appliances",
+        baseAmount: 317,
+        tax: 32,
+        itemCode: "791679",
+        serialNumber: "NINJAFS301A",
+        warranty: "1 Year Ninja Warranty",
+        sku: "791679",
+        plu: "622356320641"
       },
 
       {
         id: 1,
-        name: "Amazon Fire TV Stick 4K",
-        variant: "4K Streaming",
-        description: "Dolby Vision with Alexa Voice Remote",
-        price: 5999,
+        name: "Dyson Airstrait Straightener & Dryer",
+        variant: "Ceramic Pink",
+        description: "Wet to dry straightening with Dyson airflow",
+        price: 497,
         quantity: 1,
-        category: "Streaming Devices",
-        baseAmount: 5084,
-        tax: 915,
-        itemCode: "AMZFTV4K",
-        serialNumber: "AMZ4KTV881",
-        warranty: "1 Year Warranty"
+        category: "Hair Care",
+        baseAmount: 452,
+        tax: 45,
+        itemCode: "796593",
+        serialNumber: "DYSAST49701",
+        warranty: "2 Year Dyson Warranty",
+        sku: "796593",
+        plu: "5025155098486"
       }
     ],
 
-    subtotal: 51601,
-    tax: 9388,
-    total: 60989
+    subtotal: 769,
+    tax: 77,
+    total: 846
   },
 
 
   hist2: {
-    id: "CRBLR5590LP33",
+    id: "JBMC749727",
     date: "15-12-2025",
     time: "12:45:33",
-    associate: "Sanjay Reddy",
-    branch: "Koramangala",
+    associate: "Lucas Bennett",
+    branch: "Melbourne Central",
 
     items: [
       {
         id: 0,
-        name: "Kent RO Water Purifier",
-        variant: "Grand Plus RO + UV",
-        description: "RO+UV+UF purification with TDS control",
-        price: 18990,
+        name: "Xbox Series X 1TB Digital Console",
+        variant: "Robot White",
+        description: "Next-gen digital gaming console",
+        price: 689,
         quantity: 1,
-        category: "Water Purifiers",
-        baseAmount: 16093,
-        tax: 2897,
-        itemCode: "KENTGRANDPLUS",
-        serialNumber: "KENTRO8891",
-        warranty: "1 Year Kent Warranty",
-
-        installationAvailable: true,
-        installationStatus: "Completed",
-        installationScheduledDate: "16 Dec 2025"
+        category: "Gaming Consoles",
+        baseAmount: 626,
+        tax: 63,
+        itemCode: "749727",
+        serialNumber: "XBSX1TBDE01",
+        warranty: "1 Year Microsoft Warranty",
+        sku: "749727",
+        plu: "196388364053"
       },
 
       {
         id: 1,
-        name: "Logitech MX Master 3S Mouse",
-        variant: "Wireless Bluetooth",
-        description: "Advanced productivity mouse",
-        price: 9995,
+        name: "Segway Max G3 Electric Scooter",
+        variant: "SEGW-MAX-G3",
+        description: "Premium long-range electric scooter",
+        price: 1699,
         quantity: 1,
-        category: "Computer Accessories",
-        baseAmount: 8461,
-        tax: 1534,
-        itemCode: "LOGMXM3S",
-        serialNumber: "LOGM3S9901",
-        warranty: "1 Year Logitech Warranty"
+        category: "Electric Mobility",
+        baseAmount: 1545,
+        tax: 154,
+        itemCode: "804152",
+        serialNumber: "SEGMAXG3911",
+        warranty: "1 Year Segway Warranty",
+        sku: "804152",
+        plu: "8721008535920"
       }
     ],
 
-    subtotal: 24554,
-    tax: 4431,
-    total: 28985
+    subtotal: 2171,
+    tax: 217,
+    total: 2388
   }
 
 };
+
+const currentReceipt = receipts[currentReceiptId]
+
+const totalSlides = 2
+
+const transactionHistory = [
+  {
+    id: "current",
+    date: "05-03-2026",
+    branch: "JB Hi-Fi",
+    amount: 2298.00,
+  },
+  { id: "hist1", date: "20-01-2026", branch: "JB Hi-Fi", amount: 846.00 },
+  { id: "hist2", date: "15-12-2025", branch: "JB Hi-Fi", amount: 2388.00 },
+]
   
-  const currentReceipt = receipts[currentReceiptId]
-
-  const totalSlides = 2
-
-  const transactionHistory = [
-    {
-      id: "current",
-      date: "05-03-2026",
-      branch: "Croma",
-      amount: currentReceiptId === "current" ? receipts.current.subtotal + receipts.current.tax : 66890.00,
-    },
-    { id: "hist1", date: "20-01-2026", branch: "Croma", amount: 60989.00 },
-    { id: "hist2", date: "15-12-2025", branch: "Croma", amount: 28985.00 },
-  ]
-
   const toggleProductExpansion = (productId: number) => {
     setExpandedProducts((prev) =>
       prev.includes(productId) ? prev.filter((id) => id !== productId) : [...prev, productId],
@@ -496,7 +496,7 @@ const receipts = {
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Croma Digital Receipt</title>
+<title>JB Hi-Fi Tax Invoice</title>
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
@@ -526,20 +526,26 @@ justify-content:space-between;
 align-items:flex-start;
 margin-bottom:28px;
 padding-bottom:16px;
-border-bottom:3px solid #2CBC9C;
+border-bottom:4px solid #FFD500;
 }
 
 .company-info h1{
-font-size:30px;
-color:#2CBC9C;
+font-size:34px;
+color:#000;
 font-weight:700;
 margin-bottom:4px;
 }
 
+.company-info span{
+background:#FFD500;
+padding:4px 8px;
+font-weight:700;
+}
+
 .company-info p{
 font-size:12px;
-color:#555;
-line-height:1.4;
+color:#444;
+line-height:1.5;
 }
 
 .bill-info{
@@ -553,29 +559,22 @@ margin-bottom:4px;
 
 .bill-id{
 font-weight:600;
-color:#2CBC9C;
 }
 
 /* Customer */
 
 .customer-section{
-background:#F1FBF8;
+background:#FFF8CC;
 padding:14px;
-border-left:4px solid #2CBC9C;
+border-left:5px solid #FFD500;
 border-radius:0 8px 8px 0;
 margin-bottom:22px;
 }
 
 .customer-section h3{
 font-size:15px;
-color:#2CBC9C;
 font-weight:600;
 margin-bottom:2px;
-}
-
-.customer-section p{
-font-size:12px;
-color:#666;
 }
 
 /* Table */
@@ -587,8 +586,8 @@ margin-bottom:24px;
 }
 
 .items-table th{
-background:#2CBC9C;
-color:white;
+background:#FFD500;
+color:#000;
 padding:10px 8px;
 text-align:left;
 font-size:11px;
@@ -615,9 +614,9 @@ color:#666;
 
 .item-specs{
 font-size:10px;
-color:#2CBC9C;
+color:#444;
 margin-top:4px;
-font-weight:600;
+font-weight:500;
 }
 
 /* Totals */
@@ -634,7 +633,7 @@ font-weight:600;
 
 .totals-table{
 text-align:right;
-min-width:200px;
+min-width:220px;
 }
 
 .totals-table div{
@@ -643,10 +642,9 @@ font-size:13px;
 }
 
 .net-total{
-font-size:18px;
+font-size:20px;
 font-weight:700;
-color:#2CBC9C;
-border-top:2px solid #2CBC9C;
+border-top:2px solid #000;
 padding-top:6px;
 margin-top:6px;
 }
@@ -662,14 +660,10 @@ font-size:12px;
 color:#555;
 }
 
-.footer strong{
-color:#2CBC9C;
-}
-
 .powered{
 margin-top:10px;
 font-size:10px;
-color:#999;
+color:#888;
 font-weight:600;
 }
 
@@ -689,26 +683,29 @@ padding:0;
 <div class="receipt-header">
 
 <div class="company-info">
-<h1>Croma</h1>
+<h1><span>JB HI-FI</span></h1>
 <p>
-<strong>Croma Retail Store</strong><br>
-Brigade Road<br>
-Bengaluru, Karnataka 560001<br>
-India
+<strong>Tax Invoice</strong><br>
+JB Hi-Fi Pty Ltd<br>
+ABN: 80 093 220 136<br>
+245 Bourke Street<br>
+Melbourne VIC 3000<br>
+Australia
 </p>
 </div>
 
 <div class="bill-info">
-<div><strong>Receipt ID:</strong> <span class="bill-id">CRBLR7891XQ12</span></div>
-<div><strong>Date:</strong> 05-03-2026 19:22</div>
-<div><strong>Store Associate:</strong> Rahul Kumar</div>
+<div><strong>Receipt:</strong> JBHF-7891XQ12</div>
+<div><strong>Date:</strong> 05 Mar 2026 19:22</div>
+<div><strong>Store:</strong> Melbourne Central</div>
+<div><strong>Sales Associate:</strong> Michael Tran</div>
 </div>
 
 </div>
 
 <div class="customer-section">
 <h3>Customer: ${customerName}</h3>
-<p>Thank you for shopping at Croma!</p>
+<p>Thank you for shopping with JB Hi-Fi.</p>
 </div>
 
 <table class="items-table">
@@ -727,34 +724,34 @@ India
 
 <tr>
 <td>
-<div class="item-name">LG 1.5 Ton Dual Inverter Split AC</div>
-<div class="item-desc">AI Convertible 6-in-1 cooling</div>
+<div class="item-name">Apple iPhone 17 Pro Max 256GB (Cosmic Orange)</div>
+<div class="item-desc">Flagship Apple smartphone</div>
 <div class="item-specs">
-Product Code: LGAC15INV26<br>
-Serial: LGAC15X9921<br>
-Warranty: 1 Year Product / 10 Year Compressor
+MODEL: MFYN4X/A<br>
+SKU: 816123<br>
+PLU: 195950639070
 </div>
 </td>
 <td>1</td>
-<td>5 Star 2026 Model</td>
-<td>₹46,990</td>
-<td><strong>₹46,990</strong></td>
+<td>256GB</td>
+<td>$2,199</td>
+<td><strong>$2,199</strong></td>
 </tr>
 
 <tr>
 <td>
-<div class="item-name">Apple AirPods (3rd Generation)</div>
-<div class="item-desc">Spatial audio with dynamic head tracking</div>
+<div class="item-name">Bose SoundLink Micro Bluetooth Speaker (Stone Blue)</div>
+<div class="item-desc">Portable waterproof Bluetooth speaker</div>
 <div class="item-specs">
-Product Code: AIRPODS3<br>
-Serial: APD3X77P21<br>
-Warranty: 1 Year Apple Warranty
+MODEL: 783342-0300<br>
+SKU: 584215<br>
+PLU: 17817768412
 </div>
 </td>
 <td>1</td>
-<td>Wireless Charging Case</td>
-<td>₹19,900</td>
-<td><strong>₹19,900</strong></td>
+<td>Stone Blue</td>
+<td>$99</td>
+<td><strong>$99</strong></td>
 </tr>
 
 </tbody>
@@ -767,17 +764,18 @@ Items Purchased: 2
 </div>
 
 <div class="totals-table">
-<div>Subtotal: <strong>₹56,686</strong></div>
-<div>GST: <strong>₹10,204</strong></div>
-<div class="net-total">Total Paid: <strong>₹66,890</strong></div>
+<div>Subtotal (ex GST): <strong>$2,089.09</strong></div>
+<div>GST Included (10%): <strong>$208.91</strong></div>
+<div class="net-total">Total Paid: <strong>$2,298.00</strong></div>
 </div>
 
 </div>
 
 <div class="footer">
 
-<p><strong>Thank you for shopping with Croma!</strong></p>
-<p>Visit www.croma.com for exclusive offers and services.</p>
+<p><strong>GST is included in the total price.</strong></p>
+<p>Goods can be returned within 30 days with proof of purchase.</p>
+<p>For support visit www.jbhifi.com.au</p>
 
 <div class="powered">
 Powered by RDEP
@@ -787,13 +785,13 @@ Powered by RDEP
 
 </body>
 </html>
-    `
+`
 
     const blob = new Blob([receiptContent], { type: "text/html" })
     const url = URL.createObjectURL(blob)
     const link = document.createElement("a")
     link.href = url
-    link.download = "Croma_Receipt_SK251107001.html"
+    link.download = "JBHiFi_Receipt_SK251107001.html"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
