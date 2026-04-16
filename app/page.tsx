@@ -1494,7 +1494,7 @@ rel="noopener noreferrer"
 className="block w-full"
 >
 
-<div className="w-full aspect-[1650/530]">
+<div className="relative w-full aspect-[1650/530]">
 
 <Image
 src="/images/design-mode/jb-hifi-banner-1.png"
@@ -1522,7 +1522,7 @@ rel="noopener noreferrer"
 className="block w-full"
 >
 
-<div className="w-full aspect-[1650/530]">
+<div className="relative w-full aspect-[1650/530]">
 
 <Image
 src="/images/design-mode/jb-hifi-banner-2.png"
@@ -1549,7 +1549,7 @@ rel="noopener noreferrer"
 className="block w-full"
 >
 
-<div className="w-full aspect-[1650/530]">
+<div className="relative w-full aspect-[1650/530]">
 
 <Image
 src="/images/design-mode/jb-hifi-banner-3.png"
@@ -1587,10 +1587,10 @@ currentSlide === index
 
 </div>
 
-
 </Carousel>
 
 </div>
+          
           {/* Returns, Repairs & Exchanges */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
