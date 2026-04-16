@@ -824,7 +824,7 @@ Powered by RDEP
       >
         <div className="flex flex-col w-full gap-3 pb-4 px-3">
 
-        {/* Top Section */}
+       {/* Top Section */}
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 overflow-hidden">
 
   {/* Header */}
@@ -834,7 +834,7 @@ Powered by RDEP
 
       {/* Logo */}
       <img
-        src="https://upload.wikimedia.org/wikipedia/commons/2/2e/JB_Hi-Fi_logo.svg"
+        src="/images/design-mode/jb-hifi-logo.png"
         alt="JB Hi-Fi"
         className="h-10 w-auto"
       />
@@ -873,7 +873,7 @@ Powered by RDEP
         </div>
 
         <div className="text-3xl font-semibold text-[#FFF200]">
-          ${currentReceipt.total.toLocaleString("en-AU")}
+          A${currentReceipt.total.toLocaleString("en-AU")}
         </div>
       </div>
 
@@ -936,271 +936,275 @@ Powered by RDEP
 
 </div>
           
-          {/* Purchase Details */}
+        {/* Purchase Details */}
 
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 p-4">
 
 {/* Header */}
 
-  <div className="flex items-center justify-between mb-4">
+<div className="flex items-center justify-between mb-4">
 
-
-<h3 className="text-lg font-semibold flex items-center text-[#2CBC9C]">
-  <ShoppingBagIcon className="mr-2 h-5 w-5" />
+<h3 className="text-lg font-bold flex items-center text-black">
+  <ShoppingBagIcon className="mr-2 h-5 w-5 text-[#FFF200]" />
   Purchased Products
 </h3>
 
-<span className="text-xs font-medium border border-[#2CBC9C] text-[#2CBC9C] px-2 py-1 rounded-full">
+<span className="text-xs font-medium border border-black text-black px-2 py-1 rounded-full">
   {currentReceipt.items.length} items
 </span>
 
-  </div>
+</div>
+
 
 {/* Product List */}
 
-  <div className="space-y-3">
+<div className="space-y-3">
 
 {currentReceipt.items.map((product) => (
 
-  <div
-    key={product.id}
-    className="bg-[#F1FBF8] rounded-xl p-4 border border-[#D6F2EC]"
-  >
+<div
+  key={product.id}
+  className="bg-white rounded-xl p-4 border border-gray-200"
+>
 
-    {/* Product Row */}
-    <div
-      className="flex items-start justify-between cursor-pointer"
-      onClick={() => toggleProductExpansion(product.id)}
-    >
+{/* Product Row */}
 
-      <div className="flex items-start flex-1">
+<div
+  className="flex items-start justify-between cursor-pointer"
+  onClick={() => toggleProductExpansion(product.id)}
+>
 
-        <ChevronRight
-          className={`h-4 w-4 mr-2 mt-[2px] text-[#2CBC9C] transition-transform duration-200 ${
-            expandedProducts.includes(product.id) ? "rotate-90" : ""
-          }`}
-        />
+<div className="flex items-start flex-1">
 
-        <div>
-          <div className="font-medium text-sm text-gray-900 leading-snug">
-            {product.name}
-          </div>
+<ChevronRight
+  className={`h-4 w-4 mr-2 mt-[2px] text-black transition-transform duration-200 ${
+    expandedProducts.includes(product.id) ? "rotate-90" : ""
+  }`}
+/>
 
-          <div className="text-xs text-gray-500 mt-0.5">
-            {product.category}
-          </div>
-        </div>
+<div>
 
-      </div>
+<div className="font-medium text-sm text-gray-900 leading-snug">
+  {product.name}
+</div>
 
+<div className="text-xs text-gray-500 mt-0.5">
+  {product.category}
+</div>
 
-      <div className="text-right ml-2">
+</div>
 
-        <div className="text-xs text-gray-500">
-          Qty {product.quantity}
-        </div>
-
-        <div className="font-semibold text-sm text-[#2CBC9C]">
-          ₹{(product.price * product.quantity).toFixed(2)}
-        </div>
-
-      </div>
-
-    </div>
+</div>
 
 
-    {/* Expanded Product Details */}
-    {expandedProducts.includes(product.id) && (
+<div className="text-right ml-2">
 
-      <div className="mt-3 pt-3 border-t border-[#D6F2EC] space-y-2 text-xs text-gray-700">
+<div className="text-xs text-gray-500">
+  Qty {product.quantity}
+</div>
 
-        <div>
-          <div className="text-gray-500">Variant</div>
-          <div className="font-medium">{product.variant}</div>
-        </div>
+<div className="font-semibold text-sm text-black">
+  A${(product.price * product.quantity).toLocaleString("en-AU")}
+</div>
 
-        <div>
-          <div className="text-gray-500">Product Code</div>
-          <div className="font-medium">{product.itemCode}</div>
-        </div>
+</div>
 
-        <div>
-          <div className="text-gray-500">Serial Number</div>
-          <div className="font-medium">{product.serialNumber}</div>
-        </div>
-
-        <div>
-          <div className="text-gray-500">Warranty</div>
-          <div className="font-medium">{product.warranty}</div>
-        </div>
+</div>
 
 
-        {product.installationAvailable && (
-          <div className="pt-1 text-[#2CBC9C] font-semibold">
-            Installation: {product.installationStatus}
-            {product.installationScheduledDate && (
-              <> • {product.installationScheduledDate}</>
-            )}
-          </div>
-        )}
+{/* Expanded Product Details */}
 
-      </div>
+{expandedProducts.includes(product.id) && (
 
-    )}
+<div className="mt-3 pt-3 border-t border-gray-200 space-y-2 text-xs text-gray-700">
 
+<div>
+<div className="text-gray-500">Variant</div>
+<div className="font-medium">{product.variant}</div>
+</div>
 
-    {/* Product Feedback Toggle */}
-    <div className="mt-3">
+<div>
+<div className="text-gray-500">Product Code</div>
+<div className="font-medium">{product.itemCode}</div>
+</div>
 
-      <button
-        onClick={() => toggleItemFeedback(product.id)}
-        className="text-xs text-[#2CBC9C] font-medium"
-      >
-        {expandedItemFeedback.includes(product.id)
-          ? "Hide product feedback"
-          : "Rate this product"}
-      </button>
+<div>
+<div className="text-gray-500">Serial Number</div>
+<div className="font-medium">{product.serialNumber}</div>
+</div>
 
-    </div>
+<div>
+<div className="text-gray-500">Warranty</div>
+<div className="font-medium">{product.warranty}</div>
+</div>
 
+{product.installationAvailable && (
+<div className="pt-1 text-black font-semibold">
+  Installation: {product.installationStatus}
+  {product.installationScheduledDate && (
+    <> • {product.installationScheduledDate}</>
+  )}
+</div>
+)}
 
-    {/* Feedback Panel */}
-    {expandedItemFeedback.includes(product.id) && (
+</div>
 
-      <div className="mt-3 bg-white border border-gray-200 rounded-xl p-3">
-
-        <div className="flex justify-center gap-2 mb-3">
-
-          {[1,2,3,4,5].map((star) => (
-
-            <button
-              key={star}
-              onClick={() => setItemRating(product.id, star)}
-            >
-
-              <Star
-                className={`h-5 w-5 ${
-                  star <= (itemFeedback[product.id]?.rating || 0)
-                    ? "fill-[#2CBC9C] text-[#2CBC9C]"
-                    : "text-gray-300"
-                }`}
-              />
-
-            </button>
-
-          ))}
-
-        </div>
+)}
 
 
-        <div className="flex flex-wrap gap-2 justify-center">
+{/* Product Feedback Toggle */}
 
-          {["Build Quality","Performance","Design","Value"].map((tag) => {
+<div className="mt-3">
 
-            const active =
-              itemFeedback[product.id]?.tags?.includes(tag)
+<button
+  onClick={() => toggleItemFeedback(product.id)}
+  className="text-xs text-black font-medium"
+>
+  {expandedItemFeedback.includes(product.id)
+    ? "Hide product feedback"
+    : "Rate this product"}
+</button>
 
-            return (
+</div>
 
-              <button
-                key={tag}
-                onClick={() => toggleItemTag(product.id, tag)}
-                className={`text-[11px] px-2 py-1 rounded-full border ${
-                  active
-                    ? "bg-[#2CBC9C] text-white border-[#2CBC9C]"
-                    : "border-gray-200"
-                }`}
-              >
-                {tag}
-              </button>
 
-            )
+{/* Feedback Panel */}
 
-          })}
+{expandedItemFeedback.includes(product.id) && (
 
-        </div>
+<div className="mt-3 bg-white border border-gray-200 rounded-xl p-3">
 
-      </div>
+<div className="flex justify-center gap-2 mb-3">
 
-    )}
+{[1,2,3,4,5].map((star) => (
 
-  </div>
+<button
+  key={star}
+  onClick={() => setItemRating(product.id, star)}
+>
+
+<Star
+  className={`h-5 w-5 ${
+    star <= (itemFeedback[product.id]?.rating || 0)
+      ? "fill-[#FFF200] text-[#FFF200]"
+      : "text-gray-300"
+  }`}
+/>
+
+</button>
 
 ))}
 
+</div>
 
-  </div>
+
+<div className="flex flex-wrap gap-2 justify-center">
+
+{["Build Quality","Performance","Design","Value"].map((tag) => {
+
+const active =
+  itemFeedback[product.id]?.tags?.includes(tag)
+
+return (
+
+<button
+  key={tag}
+  onClick={() => toggleItemTag(product.id, tag)}
+  className={`text-[11px] px-2 py-1 rounded-full border ${
+    active
+      ? "bg-[#FFF200] text-black border-[#FFF200]"
+      : "border-gray-200"
+  }`}
+>
+  {tag}
+</button>
+
+)
+
+})}
+
+</div>
+
+</div>
+
+)}
+
+</div>
+
+))}
+
+</div>
+
 
 {/* Totals */}
 
-  <div className="mt-5 pt-4 border-t border-gray-200 space-y-2 text-sm">
-
+<div className="mt-5 pt-4 border-t border-gray-200 space-y-2 text-sm">
 
 <div className="flex justify-between">
-  <span className="text-gray-600">Subtotal</span>
-  <span>₹{currentReceipt.subtotal.toFixed(2)}</span>
+<span className="text-gray-600">Subtotal</span>
+<span>A${currentReceipt.subtotal.toLocaleString("en-AU")}</span>
 </div>
 
 <div className="flex justify-between">
-  <span className="text-gray-600">GST</span>
-  <span>₹{currentReceipt.tax.toFixed(2)}</span>
+<span className="text-gray-600">GST</span>
+<span>A${currentReceipt.tax.toLocaleString("en-AU")}</span>
 </div>
 
 <div className="flex justify-between text-base font-semibold pt-2 border-t border-gray-200">
-  <span>Total Paid</span>
-  <span className="text-[#2CBC9C]">
-    ₹{currentReceipt.total.toFixed(2)}
-  </span>
+<span>Total Paid</span>
+<span className="text-black">
+  A${currentReceipt.total.toLocaleString("en-AU")}
+</span>
 </div>
 
+</div>
 
-  </div>
 
 {/* Payment */}
 
-  <div className="mt-5">
+<div className="mt-5">
 
 <div className="bg-gray-50 border border-gray-200 rounded-xl p-3 flex items-center justify-between">
 
-  <div className="flex items-center">
+<div className="flex items-center">
 
-    <div className="w-8 h-8 bg-[#2CBC9C] rounded-lg flex items-center justify-center mr-3">
+<div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center mr-3">
 
-      <svg
-        className="w-4 h-4 text-white"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <rect x="1" y="4" width="22" height="16" rx="2"></rect>
-        <line x1="1" y1="10" x2="23" y2="10"></line>
-      </svg>
-
-    </div>
-
-    <div>
-      <div className="text-xs font-medium">
-        Card Payment
-      </div>
-
-      <div className="text-xs text-gray-500">
-        **** **** **** 4532
-      </div>
-    </div>
-
-  </div>
-
-  <div className="text-sm font-semibold text-[#2CBC9C]">
-    ₹{currentReceipt.total.toFixed(2)}
-  </div>
+<svg
+  className="w-4 h-4 text-[#FFF200]"
+  fill="none"
+  stroke="currentColor"
+  viewBox="0 0 24 24"
+>
+  <rect x="1" y="4" width="22" height="16" rx="2"></rect>
+  <line x1="1" y1="10" x2="23" y2="10"></line>
+</svg>
 
 </div>
 
+<div>
 
-  </div>
+<div className="text-xs font-medium">
+  Card Payment
+</div>
+
+<div className="text-xs text-gray-500">
+  **** **** **** 4532
+</div>
 
 </div>
 
+</div>
+
+<div className="text-sm font-semibold text-black">
+  A${currentReceipt.total.toLocaleString("en-AU")}
+</div>
+
+</div>
+
+</div>
+
+</div>
 
 {/* Delivery Status */}
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 p-4 font-poppins">
