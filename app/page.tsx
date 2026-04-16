@@ -1479,117 +1479,128 @@ setApi={setPromoApi}
 opts={{
 loop: true,
 }}
-
 >
 
 <CarouselContent>
 
-  {/* Banner 1 */}
-  <CarouselItem>
+{/* Banner 1 */}
 
-    <a
-      href="https://www.croma.com/lp-flash-sale"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block w-full"
-    >
+<CarouselItem>
 
-      <Image
-        src="/images/design-mode/Croma_Banner_1.png"
-        alt="Croma Flash Sale"
-        width={1000}
-        height={600}
-        className="w-full h-auto object-contain"
-        priority
-      />
+<a
+href="https://www.jbhifi.com.au/pages/upfront-mobile-plans"
+target="_blank"
+rel="noopener noreferrer"
+className="block w-full"
+>
 
-    </a>
+<div className="w-full aspect-[1650/530]">
 
-  </CarouselItem>
+<Image
+src="/images/design-mode/jb-hifi-banner-1.png"
+alt="JB Hi-Fi Mobile Plans"
+fill
+className="object-cover"
+priority
+/>
 
+</div>
 
-  {/* Banner 2 */}
-  <CarouselItem>
+</a>
 
-    <a
-      href="https://www.croma.com/lp-weekly-circuit"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block w-full"
-    >
-
-      <Image
-        src="/images/design-mode/Croma_Banner_2.png"
-        alt="Croma Weekly Circuit"
-        width={1000}
-        height={600}
-        className="w-full h-auto object-contain"
-      />
-
-    </a>
-
-  </CarouselItem>
+</CarouselItem>
 
 
-  {/* Banner 3 */}
-  <CarouselItem>
+{/* Banner 2 */}
 
-    <a
-      href="https://www.croma.com/campaign/best-deals-on-acs/c/5842?q=%3Arelevance%3Alower_categories%3A867"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block w-full"
-    >
+<CarouselItem>
 
-      <Image
-        src="/images/design-mode/Croma_Banner_3.png"
-        alt="Croma AC Deals"
-        width={1000}
-        height={600}
-        className="w-full h-auto object-contain"
-      />
+<a
+href="https://www.jbhifi.com.au/collections/mobile-phones/galaxy-s26-series"
+target="_blank"
+rel="noopener noreferrer"
+className="block w-full"
+>
 
-    </a>
+<div className="w-full aspect-[1650/530]">
 
-  </CarouselItem>
+<Image
+src="/images/design-mode/jb-hifi-banner-2.png"
+alt="Samsung Galaxy S26 Series"
+fill
+className="object-cover"
+/>
+
+</div>
+
+</a>
+
+</CarouselItem>
+
+
+{/* Banner 3 */}
+
+<CarouselItem>
+
+<a
+href="https://www.jbhifi.com.au/collections/tvs/tv-clearance"
+target="_blank"
+rel="noopener noreferrer"
+className="block w-full"
+>
+
+<div className="w-full aspect-[1650/530]">
+
+<Image
+src="/images/design-mode/jb-hifi-banner-3.png"
+alt="JB Hi-Fi TV Clearance"
+fill
+className="object-cover"
+/>
+
+</div>
+
+</a>
+
+</CarouselItem>
 
 </CarouselContent>
 
 
 {/* Pagination Dots */}
+
 <div className="absolute bottom-3 left-0 right-0 flex justify-center gap-1.5 z-10">
 
-  {[0, 1, 2].map((index) => (
+{[0, 1, 2].map((index) => (
 
-    <button
-      key={index}
-      onClick={() => promoApi?.scrollTo(index)}
-      className={`h-1.5 rounded-full transition-all duration-300 ${
-        currentSlide === index
-          ? "w-5 bg-[#2CBC9C]"
-          : "w-1.5 bg-white/70"
-      }`}
-    />
+<button
+key={index}
+onClick={() => promoApi?.scrollTo(index)}
+className={`h-1.5 rounded-full transition-all duration-300 ${
+currentSlide === index
+? "w-5 bg-[#FFF200]"
+: "w-1.5 bg-white/70"
+}`}
+ />
 
-  ))}
-
-</div>
-
-
-  </Carousel>
+))}
 
 </div>
 
-          {/* Returns & Exchange */}
+
+</Carousel>
+
+</div>
+          {/* Returns, Repairs & Exchanges */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
 {returnSubmitted ? (
 
-<div className="text-center py-4 bg-green-50 rounded-xl border border-green-100">
+<div className="text-center py-4 bg-yellow-50 rounded-xl border border-yellow-200">
 
-<div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-3">
-<CheckCircle2 className="w-6 h-6 text-green-600" />
+<div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-3">
+<CheckCircle2 className="w-6 h-6 text-yellow-600" />
 </div>
 
 <div className="text-sm font-semibold text-gray-900">
@@ -1600,8 +1611,8 @@ Request Submitted
 Request ID: <span className="font-semibold">{returnRequestId}</span>
 </div>
 
-<div className="text-xs text-green-700 mt-1">
-Our support team will contact you shortly.
+<div className="text-xs text-yellow-700 mt-1">
+JB Hi-Fi support will review your request and contact you shortly.
 </div>
 
 </div>
@@ -1616,17 +1627,17 @@ Our support team will contact you shortly.
 
 <div className="flex items-center">
 
-<div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-<RotateCcw className="h-4 w-4 text-white" />
+<div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+<RotateCcw className="h-4 w-4 text-black" />
 </div>
 
 <div>
 <div className="text-sm font-semibold text-gray-900">
-Returns & Exchange
+Returns, Repairs & Exchanges
 </div>
 
 <div className="text-xs text-gray-500">
-Request a return or exchange for your product
+Start a request for a product issue or change of mind
 </div>
 </div>
 
@@ -1634,11 +1645,19 @@ Request a return or exchange for your product
 
 <button
 onClick={() => setShowReturnPanel(!showReturnPanel)}
-className="text-xs font-medium text-[#2CBC9C]"
+className="text-xs font-medium text-black"
 >
 {showReturnPanel ? "Close" : "Start"}
 </button>
 
+</div>
+
+
+{/* Policy Note */}
+
+<div className="text-[11px] text-gray-500 mb-3 bg-gray-50 p-2 rounded-lg">
+Items may be eligible for repair, replacement, or refund depending on the issue and product condition. 
+Proof of purchase is required.
 </div>
 
 
@@ -1667,7 +1686,7 @@ setReturnReason("")
 }}
 className={`w-full text-left p-3 rounded-xl border ${
 selectedProduct === product.id
-? "border-[#2CBC9C] bg-[#F1FBF8]"
+? "border-[#FFF200] bg-yellow-50"
 : "border-gray-200"
 }`}
 >
@@ -1696,31 +1715,42 @@ selectedProduct === product.id
 <div>
 
 <div className="text-[11px] font-semibold text-gray-500 uppercase mb-2">
-Action Type
+Request Type
 </div>
 
 <div className="flex gap-2">
 
 <button
-onClick={() => setReturnType("return")}
+onClick={() => setReturnType("repair")}
 className={`flex-1 border rounded-lg py-2 text-xs ${
-returnType === "return"
-? "border-[#2CBC9C] bg-[#F1FBF8] text-[#2CBC9C]"
+returnType === "repair"
+? "border-[#FFF200] bg-yellow-50"
 : "border-gray-200"
 }`}
 >
-Return
+Repair
 </button>
 
 <button
 onClick={() => setReturnType("exchange")}
 className={`flex-1 border rounded-lg py-2 text-xs ${
 returnType === "exchange"
-? "border-[#2CBC9C] bg-[#F1FBF8] text-[#2CBC9C]"
+? "border-[#FFF200] bg-yellow-50"
 : "border-gray-200"
 }`}
 >
 Exchange
+</button>
+
+<button
+onClick={() => setReturnType("return")}
+className={`flex-1 border rounded-lg py-2 text-xs ${
+returnType === "return"
+? "border-[#FFF200] bg-yellow-50"
+: "border-gray-200"
+}`}
+>
+Return
 </button>
 
 </div>
@@ -1745,9 +1775,9 @@ Reason
 {[
 "Defective Product",
 "Wrong Item",
-"Damaged Packaging",
-"Not Satisfied",
-"Other"
+"Damaged Item",
+"Missing Parts",
+"Change of Mind"
 ].map((reason) => (
 
 <button
@@ -1755,7 +1785,7 @@ key={reason}
 onClick={() => setReturnReason(reason)}
 className={`text-[11px] px-3 py-1 rounded-full border ${
 returnReason === reason
-? "bg-[#2CBC9C] text-white border-[#2CBC9C]"
+? "bg-[#FFF200] text-black border-[#FFF200]"
 : "border-gray-200"
 }`}
 >
@@ -1783,8 +1813,8 @@ Additional Details
 
 <textarea
 rows={3}
-placeholder="Tell us more about the issue"
-className="w-full mt-1 p-2 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#2CBC9C]"
+placeholder="Describe the issue or reason"
+className="w-full mt-1 p-2 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#FFF200]"
 value={returnComment}
 onChange={(e) => setReturnComment(e.target.value)}
 />
@@ -1801,7 +1831,7 @@ onChange={(e) => setReturnComment(e.target.value)}
 <div>
 
 <div className="text-[11px] font-semibold text-gray-500 uppercase mb-2">
-Refund Method
+Refund Preference
 </div>
 
 <div className="flex gap-2">
@@ -1810,18 +1840,18 @@ Refund Method
 onClick={() => setRefundMethod("original")}
 className={`flex-1 border rounded-lg py-2 text-xs ${
 refundMethod === "original"
-? "border-[#2CBC9C] bg-[#F1FBF8]"
+? "border-[#FFF200] bg-yellow-50"
 : "border-gray-200"
 }`}
 >
-Original Payment
+Original Payment Method
 </button>
 
 <button
 onClick={() => setRefundMethod("store")}
 className={`flex-1 border rounded-lg py-2 text-xs ${
 refundMethod === "store"
-? "border-[#2CBC9C] bg-[#F1FBF8]"
+? "border-[#FFF200] bg-yellow-50"
 : "border-gray-200"
 }`}
 >
@@ -1845,7 +1875,7 @@ const id = generateReturnId()
 setReturnRequestId(id)
 setReturnSubmitted(true)
 }}
-className="w-full bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl active:scale-[0.98]"
+className="w-full bg-[#FFF200] text-black h-10 text-xs font-semibold rounded-xl active:scale-[0.98]"
 >
 Submit Request
 </button>
@@ -1861,281 +1891,210 @@ Submit Request
 )}
 
 </div>
-
-          {/* Tata Neu App Section */}
-
-<div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
-
-  <div className="flex items-center mb-3">
-
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-      <Smartphone className="h-4 w-4 text-white" />
-    </div>
-
-    <div>
-      <div className="text-sm font-semibold text-gray-900">
-        Get More with Tata Neu
-      </div>
-
-      <div className="text-xs text-gray-500">
-        Earn rewards and manage all your Tata purchases
-      </div>
-    </div>
-
-  </div>
-
-
-  {/* Benefits Card */}
-
-  <div className="bg-[#F1FBF8] rounded-xl border border-[#D6F2EC] p-3 text-xs text-gray-700 space-y-2">
-
-    {/* Reward Highlight */}
-    <div className="bg-white border border-[#D6F2EC] rounded-lg px-3 py-2 text-center font-semibold text-[#2CBC9C]">
-      Earn <span className="text-gray-900">100 NeuCoins</span> on your first login
-    </div>
-
-    <div>• Earn NeuCoins on every purchase</div>
-    <div>• Track your orders and digital receipts</div>
-    <div>• Access exclusive Tata member offers</div>
-
-  </div>
-
-
-  {/* CTA */}
-
-  <button
-    onClick={openTataNeu}
-    className="w-full mt-3 bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl active:scale-[0.98]"
-  >
-    Install Tata Neu App
-  </button>
-
-</div>
           
-          {/* Profile / Rewards Activation Section */}
+      {/* JB Hi-Fi Perks Activation */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
 {profileUpdateSuccess ? (
 
+<div className="text-center py-4 bg-yellow-50 rounded-xl border border-yellow-200">
 
-<div className="text-center py-4 bg-[#F1FBF8] rounded-xl border border-[#D6F2EC]">
+<div className="w-12 h-12 bg-yellow-100 rounded-full flex items-center justify-center mx-auto mb-3">
+<svg
+className="w-6 h-6 text-yellow-700"
+fill="none"
+stroke="currentColor"
+viewBox="0 0 24 24"
+>
+<path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7"/>
+</svg>
+</div>
 
-  <div className="w-12 h-12 bg-[#D6F2EC] rounded-full flex items-center justify-center mx-auto mb-3">
+<div className="text-sm font-semibold text-gray-900 mb-1">
+You're now a JB Hi-Fi Perks Member
+</div>
 
-    <svg
-      className="w-6 h-6 text-[#2CBC9C]"
-      fill="none"
-      stroke="currentColor"
-      viewBox="0 0 24 24"
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M5 13l4 4L19 7"></path>
-    </svg>
+<div className="text-xs text-gray-600">
+Your purchase is now linked to your JB Hi-Fi Perks profile.  
+You'll receive member offers, birthday perks and early sale access.
+</div>
 
-  </div>
+</div>
 
-  <div className="text-sm font-semibold text-gray-900 mb-1">
-    Profile Saved Successfully
-  </div>
+) : (
 
-  <div className="text-xs text-gray-600">
-    Your details are now linked to this purchase for warranty, installation updates and rewards tracking.
-  </div>
+<>
+
+{/* Header */}
+
+<div className="flex items-center mb-3">
+
+<div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+<User2 className="h-4 w-4 text-black"/>
+</div>
+
+<div>
+<div className="text-sm font-semibold text-gray-900">
+Join JB Hi-Fi Perks
+</div>
+
+<div className="text-xs text-gray-500">
+Unlock member deals, birthday perks and early access to sales.
+</div>
+</div>
 
 </div>
 
 
-) : (
+{/* Form */}
+
+<div className="space-y-3">
+
+<div className="space-y-1">
+<label className="text-[11px] font-semibold text-gray-400 uppercase">
+Full Name
+</label>
+
+<input
+type="text"
+placeholder="Your name"
+value={profile.name}
+onChange={(e)=>setProfile(prev=>({...prev,name:e.target.value}))}
+className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#FFF200]"
+/>
+
+</div>
 
 
-<>
+<div className="space-y-1">
 
-  {/* Header */}
-  <div className="flex items-center mb-3">
+<label className="text-[11px] font-semibold text-gray-400 uppercase">
+Email Address
+</label>
 
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-      <User2 className="h-4 w-4 text-white" />
-    </div>
+<input
+type="email"
+placeholder="name@email.com"
+value={profile.email}
+onChange={(e)=>setProfile(prev=>({...prev,email:e.target.value}))}
+className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#FFF200]"
+/>
 
-    <div>
-      <div className="text-sm font-semibold text-gray-900">
-        Join Croma Loyalty
-      </div>
-
-      <div className="text-xs text-gray-500">
-        Link your profile for warranty, updates and rewards.
-      </div>
-    </div>
-
-  </div>
+</div>
 
 
-  {/* Form */}
-  <div className="space-y-3">
+<div className="space-y-1">
 
-    <div className="space-y-1">
+<label className="text-[11px] font-semibold text-gray-400 uppercase">
+Mobile Number
+</label>
 
-      <label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
-        Full Name
-      </label>
+<input
+type="tel"
+placeholder="+61..."
+value={profile.mobile}
+onChange={(e)=>setProfile(prev=>({...prev,mobile:e.target.value}))}
+className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#FFF200]"
+/>
 
-      <input
-        type="text"
-        placeholder="Your Name"
-        value={profile.name}
-        onChange={(e) =>
-          setProfile((prev) => ({ ...prev, name: e.target.value }))
-        }
-        className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#2CBC9C]"
-      />
+</div>
 
-    </div>
+</div>
 
 
-    <div className="space-y-1">
+{/* CTA */}
 
-      <label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
-        Email Address
-      </label>
-
-      <input
-        type="email"
-        placeholder="name@example.com"
-        value={profile.email}
-        onChange={(e) =>
-          setProfile((prev) => ({ ...prev, email: e.target.value }))
-        }
-        className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#2CBC9C]"
-      />
-
-    </div>
+<button
+className="w-full mt-4 bg-black text-white h-11 text-xs font-semibold rounded-xl transition active:scale-[0.98]"
+onClick={handleProfileUpdate}
+>
+Join Perks
+</button>
 
 
-    <div className="space-y-1">
-
-      <label className="text-[11px] font-semibold text-gray-400 uppercase tracking-wide">
-        Mobile Number
-      </label>
-
-      <input
-        type="tel"
-        placeholder="+91 ..."
-        value={profile.mobile}
-        onChange={(e) =>
-          setProfile((prev) => ({ ...prev, mobile: e.target.value }))
-        }
-        className="w-full h-10 px-3 text-xs border border-gray-200 rounded-lg focus:outline-none focus:border-[#2CBC9C]"
-      />
-
-    </div>
-
-  </div>
-
-
-  {/* CTA */}
-  <button
-    className="w-full mt-4 bg-[#2CBC9C] text-white h-11 text-xs font-semibold rounded-xl shadow-md transition active:scale-[0.98]"
-    onClick={handleProfileUpdate}
-  >
-    Save Details
-  </button>
-
-
-  {/* Helper Text */}
-  <div className="text-[10px] text-gray-400 text-center mt-2">
-    Your information helps us provide warranty support, installation updates and exclusive offers.
-  </div>
+<div className="text-[10px] text-gray-400 text-center mt-2">
+By joining JB Hi-Fi Perks you agree to receive member offers and perks communications.
+</div>
 
 </>
-
 
 )}
 
 </div>
-
-          {/* Loyalty / NeuCoins Section */}
+          {/* JB Hi-Fi Perks Benefits */}
 
 <div className="bg-white rounded-2xl shadow-md border border-gray-200 mt-4 mx-3 overflow-hidden">
 
-  <div className="p-4">
-
+<div className="p-4">
 
 {/* Header */}
+
 <div className="flex items-center mb-4">
 
-  <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-    <Sparkles className="h-4 w-4 text-white" />
-  </div>
+<div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+<Sparkles className="h-4 w-4 text-black"/>
+</div>
 
-  <div>
-    <div className="text-sm font-semibold text-gray-900">
-      NeuCoins Rewards
-    </div>
+<div>
+<div className="text-sm font-semibold text-gray-900">
+JB Hi-Fi Perks Benefits
+</div>
 
-    <div className="text-xs text-gray-500">
-      Earn rewards across the Tata Neu ecosystem
-    </div>
-  </div>
+<div className="text-xs text-gray-500">
+Member benefits you unlock with every purchase
+</div>
+</div>
 
 </div>
 
 
-{/* Overview Stats */}
-<div className="grid grid-cols-3 gap-3 mb-4">
+{/* Benefits Grid */}
 
-  <div className="bg-[#F1FBF8] rounded-xl p-3 text-center border border-[#D6F2EC]">
-    <div className="text-lg font-semibold text-[#2CBC9C]">+669</div>
-    <div className="text-xs text-gray-600">Coins Earned</div>
-  </div>
+<div className="grid grid-cols-2 gap-3">
 
-  <div className="bg-[#F1FBF8] rounded-xl p-3 text-center border border-[#D6F2EC]">
-    <div className="text-lg font-semibold text-[#2CBC9C]">4,280</div>
-    <div className="text-xs text-gray-600">Total Coins</div>
-  </div>
+<div className="bg-yellow-50 border border-yellow-200 rounded-xl p-3">
+<div className="text-sm font-semibold text-gray-900">$10 Welcome Coupon</div>
+<div className="text-xs text-gray-600 mt-1">
+Receive a $10 coupon when you join JB Hi-Fi Perks.
+</div>
+</div>
 
-  <div className="bg-[#F1FBF8] rounded-xl p-3 text-center border border-[#D6F2EC]">
-    <div className="text-lg font-semibold text-[#2CBC9C]">Gold</div>
-    <div className="text-xs text-gray-600">Member Tier</div>
-  </div>
+<div className="bg-yellow-50 border border-yellow-200 rounded-xl p-3">
+<div className="text-sm font-semibold text-gray-900">Member Deals</div>
+<div className="text-xs text-gray-600 mt-1">
+Access exclusive deals available only to Perks members.
+</div>
+</div>
+
+<div className="bg-yellow-50 border border-yellow-200 rounded-xl p-3">
+<div className="text-sm font-semibold text-gray-900">Early Sale Access</div>
+<div className="text-xs text-gray-600 mt-1">
+Get priority access to JB Hi-Fi sales and major events.
+</div>
+</div>
+
+<div className="bg-yellow-50 border border-yellow-200 rounded-xl p-3">
+<div className="text-sm font-semibold text-gray-900">Birthday Perks</div>
+<div className="text-xs text-gray-600 mt-1">
+Receive a special reward during your birthday month.
+</div>
+</div>
 
 </div>
 
 
-{/* Tier Progress */}
-<div className="bg-[#F1FBF8] rounded-xl p-4 border border-[#D6F2EC]">
+{/* Footer Note */}
 
-  <div className="flex justify-between text-xs text-gray-600 mb-2">
-    <span>Progress to Platinum</span>
-    <span>4280 / 6000</span>
-  </div>
-
-  <div className="w-full h-3 bg-gray-200 rounded-full overflow-hidden">
-
-    <div
-      className="h-full bg-[#2CBC9C] rounded-full"
-      style={{ width: "71%" }}
-    />
-
-  </div>
-
-  <div className="text-xs text-gray-600 mt-2">
-    Only <span className="font-semibold text-[#2CBC9C]">1,720 coins</span> away from Platinum benefits.
-  </div>
-
-</div>
-
-
-{/* Member Benefit */}
 <div className="mt-4 bg-gray-50 rounded-xl border border-gray-200 p-3 text-center">
 
-  <div className="text-xs text-gray-600">
-    Gold members enjoy priority service, exclusive offers and faster NeuCoins rewards.
-  </div>
+<div className="text-xs text-gray-600">
+Perks members also receive competition entries and special promotional offers throughout the year.
+</div>
 
 </div>
 
-
-  </div>
+</div>
 
 </div>
           
