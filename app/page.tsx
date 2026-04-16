@@ -2101,14 +2101,14 @@ Perks members also receive competition entries and special promotional offers th
 
 {/* Hottest Deals */}
 
-<div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
+<div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4">
 
 {/* Header */}
 
 <div className="flex items-center mb-4">
 
 <div className="bg-[#FFF200] p-2 rounded-lg mr-3">
-<Flame className="h-4 w-4 text-black"/>
+🔥
 </div>
 
 <div>
@@ -2151,9 +2151,6 @@ Garmin Epix Pro Gen 2 Sapphire Edition 47mm
 <span className="text-gray-500 ml-1">5.0</span>
 </div>
 
-
-{/* Ticket */}
-
 <div className="relative border border-black">
 
 <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-600 text-white text-[9px] px-2 py-[2px] font-bold">
@@ -2178,7 +2175,6 @@ A$850 OFF
 
 </div>
 
-
 <a
 href="https://www.jbhifi.com.au/products/garmin-epix-pro-gen-2-sapphire-edition-47mm-carbon-grey-dlc-titanium-with-black-band"
 target="_blank"
@@ -2190,44 +2186,55 @@ Buy Now
 </div>
 
 
-{/* Product 2 - Nintendo */}
+
+{/* Product 2 - Bose */}
 
 <div className="bg-gray-100 rounded-xl p-3 flex flex-col">
 
 <img
-src="/images/design-mode/nintendo.png"
+src="/images/design-mode/bose.png"
 className="w-full object-contain h-36 mb-2"
 />
 
 <div className="text-[10px] text-gray-500 mb-1">
-Nintendo
+Bose
 </div>
 
 <div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
-Nintendo Switch 2 Console + Mario Kart World Bundle
+Bose QuietComfort Ultra Wireless Noise Cancelling Earbuds
 </div>
 
 <div className="flex items-center text-yellow-400 text-xs mb-2">
-★★★★☆
-<span className="text-gray-500 ml-1">4.0</span>
+★★★★★
+<span className="text-gray-500 ml-1">4.8</span>
 </div>
 
+<div className="relative border border-black">
 
-<div className="border border-black">
+<div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-600 text-white text-[9px] px-2 py-[2px] font-bold">
+TICKET
+</div>
 
-<div className="bg-[#FFF200] text-center py-3">
+<div className="bg-[#FFF200] text-center py-2">
 
-<div className="text-lg font-extrabold text-gray-900">
-A$769
+<div className="text-[10px] line-through text-gray-700">
+A$449
+</div>
+
+<div className="text-lg font-extrabold text-red-600">
+A$249
 </div>
 
 </div>
 
+<div className="bg-red-600 text-white text-center text-[10px] py-1">
+A$200 OFF
 </div>
 
+</div>
 
 <a
-href="https://www.jbhifi.com.au/products/nintendo-switch-2-console-mario-kart-world-bundle"
+href="https://www.jbhifi.com.au/products/bose-quietcomfort-ultra-wireless-noise-cancelling-earbuds-gen-1-black"
 target="_blank"
 className="mt-3 bg-green-600 text-white text-center text-xs py-2 rounded-md font-semibold"
 >
@@ -2237,21 +2244,22 @@ Buy Now
 </div>
 
 
-{/* Product 3 - Dell */}
+
+{/* Product 3 - Samsung */}
 
 <div className="bg-gray-100 rounded-xl p-3 flex flex-col">
 
 <img
-src="/images/design-mode/dell.png"
+src="/images/design-mode/samsung.png"
 className="w-full object-contain h-36 mb-2"
 />
 
 <div className="text-[10px] text-gray-500 mb-1">
-Dell
+Samsung
 </div>
 
 <div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
-Dell 15 DC15255 15.6" FHD 120Hz Laptop Ryzen 5
+Samsung Galaxy S26 Ultra 5G 256GB (Black)
 </div>
 
 <div className="flex items-center text-yellow-400 text-xs mb-2">
@@ -2259,22 +2267,32 @@ Dell 15 DC15255 15.6" FHD 120Hz Laptop Ryzen 5
 <span className="text-gray-500 ml-1">5.0</span>
 </div>
 
+<div className="relative border border-black">
 
-<div className="border border-black">
+<div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-600 text-white text-[9px] px-2 py-[2px] font-bold">
+TICKET
+</div>
 
-<div className="bg-[#FFF200] text-center py-3">
+<div className="bg-[#FFF200] text-center py-2">
 
-<div className="text-lg font-extrabold text-gray-900">
-A$779
+<div className="text-[10px] line-through text-gray-700">
+A$2199
+</div>
+
+<div className="text-lg font-extrabold text-red-600">
+A$1999
 </div>
 
 </div>
 
+<div className="bg-red-600 text-white text-center text-[10px] py-1">
+A$200 OFF
 </div>
 
+</div>
 
 <a
-href="https://www.jbhifi.com.au/products/dell-15-dc15255-15-6-fhd-120hz-laptop-ryzen-5512gb"
+href="https://www.jbhifi.com.au/products/samsung-galaxy-s26-ultra-5g-256gb-black"
 target="_blank"
 className="mt-3 bg-green-600 text-white text-center text-xs py-2 rounded-md font-semibold"
 >
@@ -2282,6 +2300,7 @@ Buy Now
 </a>
 
 </div>
+
 
 
 {/* Product 4 - Hisense */}
@@ -2305,7 +2324,6 @@ Hisense 65" Q6QAU 4K QLED Smart TV (2025)
 ★★★★☆
 <span className="text-gray-500 ml-1">4.5</span>
 </div>
-
 
 <div className="relative border border-black">
 
@@ -2331,7 +2349,6 @@ A$104 OFF
 
 </div>
 
-
 <a
 href="https://www.jbhifi.com.au/products/hisense-65-q6qau-4k-qled-smart-tv-2025"
 target="_blank"
@@ -2356,52 +2373,62 @@ className="block mt-5 bg-[#FFF200] text-black text-center py-3 rounded-xl text-s
 Explore More Deals
 </a>
 
-</div>          
-         {/* Receipt Actions */}
+</div>
+          
+          {/* Receipt Actions */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
   <div className="grid grid-cols-3 gap-3">
-{/* Purchase History */}
-<button
-  ref={historyButtonRef}
-  onClick={handleTransactionHistoryOpen}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
->
-  <History className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    History
-  </span>
-</button>
+
+    {/* Purchase History */}
+    <button
+      ref={historyButtonRef}
+      onClick={handleTransactionHistoryOpen}
+      className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.97] transition"
+    >
+      <div className="bg-[#FFF200] p-2 rounded-lg mb-1">
+        <History className="h-4 w-4 text-black" />
+      </div>
+
+      <span className="text-[11px] font-semibold text-gray-800">
+        History
+      </span>
+    </button>
 
 
-{/* Email Receipt */}
-<button
-  onClick={handleEmailReceipt}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
->
-  <Mail className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Email
-  </span>
-</button>
+    {/* Email Receipt */}
+    <button
+      onClick={handleEmailReceipt}
+      className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.97] transition"
+    >
+      <div className="bg-[#FFF200] p-2 rounded-lg mb-1">
+        <Mail className="h-4 w-4 text-black" />
+      </div>
+
+      <span className="text-[11px] font-semibold text-gray-800">
+        Email
+      </span>
+    </button>
 
 
-{/* Download Receipt */}
-<button
-  onClick={handleDownloadReceipt}
-  className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.98]"
->
-  <Download className="h-5 w-5 text-[#2CBC9C] mb-1" />
-  <span className="text-[11px] font-medium text-gray-700">
-    Download
-  </span>
-</button>
+    {/* Download Receipt */}
+    <button
+      onClick={handleDownloadReceipt}
+      className="flex flex-col items-center justify-center bg-gray-50 border border-gray-200 rounded-xl py-3 active:scale-[0.97] transition"
+    >
+      <div className="bg-[#FFF200] p-2 rounded-lg mb-1">
+        <Download className="h-4 w-4 text-black" />
+      </div>
+
+      <span className="text-[11px] font-semibold text-gray-800">
+        Download
+      </span>
+    </button>
 
   </div>
 
 </div>
-
           
        {/* Need Help Section */}
 
@@ -2469,32 +2496,33 @@ Explore More Deals
 
 {/* Header */}
 
-  <div className="flex items-center mb-4">
+<div className="flex items-center mb-4">
 
-<div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-  <Share2 className="h-4 w-4 text-white" />
+<div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+  <Share2 className="h-4 w-4 text-black" />
 </div>
 
 <h3 className="text-sm font-semibold text-gray-900">
   Stay Connected
 </h3>
 
-  </div>
+</div>
+
 
 {/* Social Links */}
 
-  <div className="flex justify-center space-x-6 mb-4">
+<div className="flex justify-center space-x-6 mb-4">
 
 {/* Instagram */}
 <button
-  onClick={() => handleSocialLink("https://www.instagram.com/croma.retail/")}
+  onClick={() => handleSocialLink("https://www.instagram.com/jbhifi/")}
   className="flex flex-col items-center"
 >
   <div className="w-9 h-9 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-500 flex items-center justify-center mb-1">
     <Instagram className="h-4 w-4 text-white" />
   </div>
 
-  <span className="text-[11px] font-medium text-gray-700">
+  <span className="text-[11px] font-semibold text-gray-800">
     Instagram
   </span>
 </button>
@@ -2502,14 +2530,14 @@ Explore More Deals
 
 {/* Facebook */}
 <button
-  onClick={() => handleSocialLink("https://www.facebook.com/CromaRetail/")}
+  onClick={() => handleSocialLink("https://www.facebook.com/JBHiFi/")}
   className="flex flex-col items-center"
 >
   <div className="w-9 h-9 rounded-full bg-[#1877F2] flex items-center justify-center mb-1">
     <Facebook className="h-4 w-4 text-white" />
   </div>
 
-  <span className="text-[11px] font-medium text-gray-700">
+  <span className="text-[11px] font-semibold text-gray-800">
     Facebook
   </span>
 </button>
@@ -2517,123 +2545,139 @@ Explore More Deals
 
 {/* Website */}
 <button
-  onClick={() => handleSocialLink("https://www.croma.com")}
+  onClick={() => handleSocialLink("https://www.jbhifi.com.au/")}
   className="flex flex-col items-center"
 >
-  <div className="w-9 h-9 rounded-full bg-[#2CBC9C] flex items-center justify-center mb-1">
-    <ExternalLink className="h-4 w-4 text-white" />
+  <div className="w-9 h-9 rounded-full bg-[#FFF200] flex items-center justify-center mb-1">
+    <ExternalLink className="h-4 w-4 text-black" />
   </div>
 
-  <span className="text-[11px] font-medium text-gray-700">
+  <span className="text-[11px] font-semibold text-gray-800">
     Website
   </span>
 </button>
 
-  </div>
+</div>
+
 
 {/* Store Location */}
 
-  <div className="text-xs text-gray-600 text-center mb-3 bg-gray-50 p-3 rounded-xl">
+<div className="text-xs text-gray-600 text-center mb-3 bg-gray-50 p-3 rounded-xl">
 
 <button
   onClick={() => setShowStoreLocation(!showStoreLocation)}
-  className="w-full flex items-center justify-center mb-2 hover:text-[#2CBC9C] transition-colors"
+  className="w-full flex items-center justify-center mb-2 hover:text-black transition-colors"
 >
-  <MapPin className="h-3 w-3 mr-1 text-[#2CBC9C]" />
 
-  <span className="font-semibold text-[#2CBC9C]">
-    Croma {currentReceipt.branch}, Bengaluru {showStoreLocation ? "▲" : "▼"}
-  </span>
+<MapPin className="h-3 w-3 mr-1 text-black" />
+
+<span className="font-semibold text-black">
+  JB Hi-Fi Melbourne Central {showStoreLocation ? "▲" : "▼"}
+</span>
 
 </button>
 
+
 {showStoreLocation && (
 
-  <div className="space-y-0.5">
+<div className="space-y-0.5">
 
-    <p className="font-semibold text-gray-900">
-      Croma Retail Store
-    </p>
+<p className="font-semibold text-gray-900">
+JB Hi-Fi
+</p>
 
-    <p>{currentReceipt.branch}</p>
+<p>
+Shop 101B, L01 Building
+</p>
 
-    <p>Bengaluru, Karnataka</p>
+<p>
+211 La Trobe St
+</p>
 
-    <p>India</p>
+<p>
+Melbourne VIC 3000
+</p>
 
-    <p className="mt-2 text-[10px]">
-      GSTIN: 29ABCDE1234F1Z5
-    </p>
+<p>
+Australia
+</p>
 
-    <p className="mt-1 text-[#2CBC9C] font-semibold">
-      Store Associate: {currentReceipt.associate}
-    </p>
+<p className="mt-2 text-[10px]">
+Store: Melbourne Central
+</p>
 
-  </div>
+<p className="mt-1 text-black font-semibold">
+Store Associate: {currentReceipt.associate}
+</p>
+
+</div>
 
 )}
 
-  </div>
+</div>
+
 
 {/* Terms */}
-<button
-className="w-full text-xs text-gray-500 hover:text-[#2CBC9C] h-6 font-medium"
-onClick={() => setShowTerms(!showTerms)}
 
+<button
+className="w-full text-xs text-gray-500 hover:text-black h-6 font-medium"
+onClick={() => setShowTerms(!showTerms)}
 >
 
 Terms & Conditions {showTerms ? "▲" : "▼"}
 
-  </button>
+</button>
+
 
 {showTerms && (
 
 <div className="text-[11px] text-gray-500 mt-2 space-y-1 px-2 font-medium">
 
-  <p>• Products sold are subject to manufacturer warranty terms.</p>
+<p>• Products sold are subject to manufacturer warranty terms.</p>
 
-  <p>• Installation and service timelines may vary by location.</p>
+<p>• Pricing and promotional offers may vary across JB Hi-Fi stores.</p>
 
-  <p>• Prices shown include applicable GST.</p>
+<p>• Prices displayed include applicable taxes.</p>
 
-  <p>• For service support visit www.croma.com/support.</p>
+<p>• For support visit www.jbhifi.com.au/support.</p>
 
 </div>
 
 )}
 
+
 {/* Powered by RDEP */}
 
-  <div className="text-center mt-3 pt-3 border-t border-gray-100">
+<div className="text-center mt-3 pt-3 border-t border-gray-100">
+
 <div className="flex items-center justify-center space-x-1">
 
-  <span className="text-xs text-gray-400 font-medium">
-    Powered by
-  </span>
+<span className="text-xs text-gray-400 font-medium">
+Powered by
+</span>
 
-  <a
-    href="https://www.rdep.io"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="inline-flex items-center"
-  >
+<a
+href="https://www.rdep.io"
+target="_blank"
+rel="noopener noreferrer"
+className="inline-flex items-center"
+>
 
-    <Image
-      src="/images/design-mode/RDEP cropped.png"
-      alt="RDEP"
-      width={60}
-      height={16}
-      className="object-contain"
-    />
+<Image
+src="/images/design-mode/RDEP cropped.png"
+alt="RDEP"
+width={60}
+height={16}
+className="object-contain"
+/>
 
-  </a>
-
-</div>
-
-  </div>
+</a>
 
 </div>
 
+</div>
+
+</div>
           <div id="height-marker" style={{ height: "1px" }} />
         </div>
 
@@ -2641,92 +2685,97 @@ Terms & Conditions {showTerms ? "▲" : "▼"}
         {/* Transaction History Modal */}
 {showTransactionHistory && (
 
-  <div className="fixed inset-0 z-[9999] flex items-center justify-center">
+<div className="fixed inset-0 z-[9999] flex items-center justify-center">
 
 {/* Backdrop */}
 <div
-  className="absolute inset-0 bg-black/40 backdrop-blur-sm"
-  onClick={() => setShowTransactionHistory(false)}
+className="absolute inset-0 bg-black/40 backdrop-blur-sm"
+onClick={() => setShowTransactionHistory(false)}
 />
+
 
 {/* Modal */}
 <div className="relative bg-white rounded-2xl w-full max-w-sm mx-4 shadow-2xl border border-gray-200 font-poppins overflow-hidden">
 
-  {/* Header */}
-  <div className="flex justify-between items-center p-4 border-b border-gray-100">
 
-    <div className="flex items-center">
+{/* Header */}
+<div className="flex justify-between items-center p-4 border-b border-gray-100">
 
-      <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-        <History className="h-4 w-4 text-white" />
-      </div>
+<div className="flex items-center">
 
-      <h3 className="text-sm font-semibold text-gray-900">
-        Purchase History
-      </h3>
+<div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+<History className="h-4 w-4 text-black" />
+</div>
 
-    </div>
-
-    <button
-      className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100"
-      onClick={() => setShowTransactionHistory(false)}
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        className="h-4 w-4 text-gray-500"
-      >
-        <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" strokeWidth="2"/>
-      </svg>
-    </button>
-
-  </div>
-
-
-  {/* Transaction List */}
-  <div className="max-h-80 overflow-y-auto p-4 space-y-3">
-
-    {transactionHistory.map((transaction) => (
-
-      <button
-        key={transaction.id}
-        onClick={() => {
-          setCurrentReceiptId(transaction.id)
-          setShowTransactionHistory(false)
-          window.scrollTo({ top: 0, behavior: "smooth" })
-        }}
-        className="w-full flex items-center p-3 bg-gray-50 border border-gray-200 rounded-xl hover:border-[#2CBC9C] transition"
-      >
-
-        <div className="bg-white border border-gray-200 p-2 rounded-lg mr-3">
-          <FileText className="h-4 w-4 text-[#2CBC9C]" />
-        </div>
-
-        <div className="flex-grow text-left">
-
-          <div className="text-sm font-semibold text-gray-900">
-            Croma
-          </div>
-
-          <div className="text-[11px] text-gray-500">
-            {transaction.date}
-          </div>
-
-        </div>
-
-        <div className="text-sm font-semibold text-[#2CBC9C]">
-          ₹{transaction.amount.toFixed(2)}
-        </div>
-
-      </button>
-
-    ))}
-
-  </div>
+<h3 className="text-sm font-semibold text-gray-900">
+Purchase History
+</h3>
 
 </div>
 
-  </div>
+<button
+className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100"
+onClick={() => setShowTransactionHistory(false)}
+>
+
+<svg
+xmlns="http://www.w3.org/2000/svg"
+viewBox="0 0 24 24"
+className="h-4 w-4 text-gray-500"
+>
+<path d="M18 6L6 18M6 6l12 12" stroke="currentColor" strokeWidth="2"/>
+</svg>
+
+</button>
+
+</div>
+
+
+{/* Transaction List */}
+<div className="max-h-80 overflow-y-auto p-4 space-y-3">
+
+{transactionHistory.map((transaction) => (
+
+<button
+key={transaction.id}
+onClick={() => {
+setCurrentReceiptId(transaction.id)
+setShowTransactionHistory(false)
+window.scrollTo({ top: 0, behavior: "smooth" })
+}}
+className="w-full flex items-center p-3 bg-gray-50 border border-gray-200 rounded-xl hover:border-[#FFF200] transition"
+>
+
+<div className="bg-white border border-gray-200 p-2 rounded-lg mr-3">
+<FileText className="h-4 w-4 text-black" />
+</div>
+
+<div className="flex-grow text-left">
+
+<div className="text-sm font-semibold text-gray-900">
+JB Hi-Fi
+</div>
+
+<div className="text-[11px] text-gray-500">
+{transaction.date}
+</div>
+
+</div>
+
+<div className="text-sm font-semibold text-red-600">
+A${transaction.amount.toFixed(2)}
+</div>
+
+</button>
+
+))}
+
+</div>
+
+</div>
+
+</div>
+
 )}
 
         {/* Refer & Earn Modal */}
