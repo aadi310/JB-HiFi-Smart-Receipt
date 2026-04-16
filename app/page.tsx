@@ -2097,327 +2097,265 @@ Perks members also receive competition entries and special promotional offers th
 
 </div>
           
-{/* Exclusive Offers Section */}
+
+{/* Hottest Deals */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
 
-  {/* Header */}
-  <div className="flex items-center mb-4">
+{/* Header */}
 
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-      <Sparkles className="h-4 w-4 text-white" />
-    </div>
+<div className="flex items-center mb-4">
 
-    <h3 className="text-base font-semibold text-gray-900">
-      Exclusive Offers For You
-    </h3>
+<div className="bg-[#FFF200] p-2 rounded-lg mr-3">
+<Flame className="h-4 w-4 text-black"/>
+</div>
 
-  </div>
+<div>
+<div className="text-sm font-semibold text-gray-900">
+Hottest Deals
+</div>
 
-
-  {/* Inline Toast */}
-  {couponToast && (
-    <div className="mb-3 text-center text-xs text-green-700 bg-green-50 border border-green-100 rounded-lg py-2">
-      ✓ Coupon <span className="font-semibold">{couponToast}</span> copied
-    </div>
-  )}
-
-
-  <div className="space-y-3">
-
-
-    {/* Offer 1 */}
-    <button
-      onClick={() => copyCoupon("AC_WARRANTY")}
-      className="w-full bg-[#F1FBF8] border border-[#D6F2EC] rounded-xl p-3 text-left active:scale-[0.99]"
-    >
-
-      <div className="flex items-center justify-between">
-
-        <div>
-
-          <h4 className="text-sm font-semibold text-gray-900">
-            Extend Your AC Warranty
-          </h4>
-
-          <p className="text-[11px] text-gray-500">
-            Get up to <span className="font-semibold text-[#2CBC9C]">20% off</span> on extended protection plans
-          </p>
-
-          <p className="text-[11px] mt-1 text-gray-600">
-            Use code <span className="font-semibold text-[#2CBC9C]">AC_WARRANTY</span>
-          </p>
-
-        </div>
-
-        <ShieldCheck className="h-5 w-5 text-[#2CBC9C]" />
-
-      </div>
-
-    </button>
-
-
-    {/* Offer 2 */}
-    <button
-      onClick={() => copyCoupon("AC_STABILIZER")}
-      className="w-full bg-[#F1FBF8] border border-[#D6F2EC] rounded-xl p-3 text-left active:scale-[0.99]"
-    >
-
-      <div className="flex items-center justify-between">
-
-        <div>
-
-          <h4 className="text-sm font-semibold text-gray-900">
-            Special Price on AC Stabilizers
-          </h4>
-
-          <p className="text-[11px] text-gray-500">
-            Protect your AC with stabilizers starting at ₹1,499
-          </p>
-
-          <p className="text-[11px] mt-1 text-gray-600">
-            Use code <span className="font-semibold text-[#2CBC9C]">AC_STABILIZER</span>
-          </p>
-
-        </div>
-
-        <PlugZap className="h-5 w-5 text-[#2CBC9C]" />
-
-      </div>
-
-    </button>
-
-
-    {/* Offer 3 */}
-    <button
-      onClick={() => copyCoupon("AIRPODS_CASE")}
-      className="w-full bg-[#F1FBF8] border border-[#D6F2EC] rounded-xl p-3 text-left active:scale-[0.99]"
-    >
-
-      <div className="flex items-center justify-between">
-
-        <div>
-
-          <h4 className="text-sm font-semibold text-gray-900">
-            Protect Your AirPods
-          </h4>
-
-          <p className="text-[11px] text-gray-500">
-            Premium protective cases starting from ₹799
-          </p>
-
-          <p className="text-[11px] mt-1 text-gray-600">
-            Use code <span className="font-semibold text-[#2CBC9C]">AIRPODS_CASE</span>
-          </p>
-
-        </div>
-
-        <Headphones className="h-5 w-5 text-[#2CBC9C]" />
-
-      </div>
-
-    </button>
-
-  </div>
-
-
-  {/* CTA */}
-  <a
-    href="https://www.croma.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-
-    <button className="w-full mt-4 bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl transition active:scale-[0.98]">
-      Explore More Offers
-    </button>
-
-  </a>
-
-
-  <p className="mt-2 text-[9px] text-center text-gray-400">
-    Offers based on your recent purchase. Availability may vary by location.
-  </p>
+<div className="text-xs text-gray-500">
+This week's biggest JB Hi-Fi offers
+</div>
+</div>
 
 </div>
 
-        {/* Discover More Section */}
 
-<div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
+{/* Products Grid */}
 
-  {/* Header */}
-  <div className="flex items-center mb-4">
-
-    <div className="bg-[#2CBC9C] p-2 rounded-lg mr-3">
-      <Sparkles className="h-4 w-4 text-white" />
-    </div>
-
-    <h3 className="text-base font-semibold text-gray-900">
-      Discover More
-    </h3>
-
-  </div>
+<div className="grid grid-cols-2 gap-4">
 
 
-  {/* Category Grid */}
-  <div className="grid grid-cols-2 gap-3">
+{/* Product 1 - Garmin */}
 
-    {/* Smartphones */}
-    <a
-      href="https://www.croma.com/phones-wearables/mobile-phones/c/10"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
+<div className="bg-gray-100 rounded-xl p-3 flex flex-col">
 
-      <Image
-        src="/images/design-mode/Smartphones.png"
-        alt="Smartphones"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
+<img
+src="/images/design-mode/garmin.png"
+className="w-full object-contain h-36 mb-2"
+/>
 
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Smartphones
-      </div>
+<div className="text-[10px] text-gray-500 mb-1">
+Garmin
+</div>
 
-    </a>
+<div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
+Garmin Epix Pro Gen 2 Sapphire Edition 47mm
+</div>
+
+<div className="flex items-center text-yellow-400 text-xs mb-2">
+★★★★★
+<span className="text-gray-500 ml-1">5.0</span>
+</div>
 
 
-    {/* Televisions */}
-    <a
-      href="https://www.croma.com/televisions-accessories/c/997"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
+{/* Ticket */}
 
-      <Image
-        src="/images/design-mode/Television.png"
-        alt="Televisions"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
+<div className="relative border border-black">
 
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Televisions
-      </div>
+<div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-600 text-white text-[9px] px-2 py-[2px] font-bold">
+TICKET
+</div>
 
-    </a>
+<div className="bg-[#FFF200] text-center py-2">
 
+<div className="text-[10px] line-through text-gray-700">
+A$1699
+</div>
 
-    {/* Kitchen Appliances */}
-    <a
-      href="https://www.croma.com/kitchen-appliances/c/864"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Kitchen.png"
-        alt="Kitchen Appliances"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Kitchen Appliances
-      </div>
-
-    </a>
-
-
-    {/* Home Appliances */}
-    <a
-      href="https://www.croma.com/home-appliances/c/5"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Home.png"
-        alt="Home Appliances"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Home Appliances
-      </div>
-
-    </a>
-
-
-    {/* Computers & Tablets */}
-    <a
-      href="https://www.croma.com/computers-tablets/c/3"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Computer.png"
-        alt="Computers"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Computers & Tablets
-      </div>
-
-    </a>
-
-
-    {/* Audio & Video */}
-    <a
-      href="https://www.croma.com/audio-video/c/292"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border border-gray-200 rounded-xl p-3 text-center bg-gray-50 active:scale-[0.98]"
-    >
-
-      <Image
-        src="/images/design-mode/Audio.png"
-        alt="Audio & Video"
-        width={120}
-        height={90}
-        className="mx-auto object-contain"
-      />
-
-      <div className="text-xs font-semibold text-gray-800 mt-2">
-        Audio & Video
-      </div>
-
-    </a>
-
-  </div>
-
-
-  {/* CTA */}
-  <a
-    href="https://www.croma.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-
-    <button className="w-full mt-4 bg-[#2CBC9C] text-white h-10 text-xs font-semibold rounded-xl active:scale-[0.98]">
-      Explore More on Croma
-    </button>
-
-  </a>
+<div className="text-lg font-extrabold text-red-600">
+A$849
+</div>
 
 </div>
-          
-          
+
+<div className="bg-red-600 text-white text-center text-[10px] py-1">
+A$850 OFF
+</div>
+
+</div>
+
+
+<a
+href="https://www.jbhifi.com.au/products/garmin-epix-pro-gen-2-sapphire-edition-47mm-carbon-grey-dlc-titanium-with-black-band"
+target="_blank"
+className="mt-3 bg-green-600 text-white text-center text-xs py-2 rounded-md font-semibold"
+>
+Buy Now
+</a>
+
+</div>
+
+
+{/* Product 2 - Nintendo */}
+
+<div className="bg-gray-100 rounded-xl p-3 flex flex-col">
+
+<img
+src="/images/design-mode/nintendo.png"
+className="w-full object-contain h-36 mb-2"
+/>
+
+<div className="text-[10px] text-gray-500 mb-1">
+Nintendo
+</div>
+
+<div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
+Nintendo Switch 2 Console + Mario Kart World Bundle
+</div>
+
+<div className="flex items-center text-yellow-400 text-xs mb-2">
+★★★★☆
+<span className="text-gray-500 ml-1">4.0</span>
+</div>
+
+
+<div className="border border-black">
+
+<div className="bg-[#FFF200] text-center py-3">
+
+<div className="text-lg font-extrabold text-gray-900">
+A$769
+</div>
+
+</div>
+
+</div>
+
+
+<a
+href="https://www.jbhifi.com.au/products/nintendo-switch-2-console-mario-kart-world-bundle"
+target="_blank"
+className="mt-3 bg-green-600 text-white text-center text-xs py-2 rounded-md font-semibold"
+>
+Buy Now
+</a>
+
+</div>
+
+
+{/* Product 3 - Dell */}
+
+<div className="bg-gray-100 rounded-xl p-3 flex flex-col">
+
+<img
+src="/images/design-mode/dell.png"
+className="w-full object-contain h-36 mb-2"
+/>
+
+<div className="text-[10px] text-gray-500 mb-1">
+Dell
+</div>
+
+<div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
+Dell 15 DC15255 15.6" FHD 120Hz Laptop Ryzen 5
+</div>
+
+<div className="flex items-center text-yellow-400 text-xs mb-2">
+★★★★★
+<span className="text-gray-500 ml-1">5.0</span>
+</div>
+
+
+<div className="border border-black">
+
+<div className="bg-[#FFF200] text-center py-3">
+
+<div className="text-lg font-extrabold text-gray-900">
+A$779
+</div>
+
+</div>
+
+</div>
+
+
+<a
+href="https://www.jbhifi.com.au/products/dell-15-dc15255-15-6-fhd-120hz-laptop-ryzen-5512gb"
+target="_blank"
+className="mt-3 bg-green-600 text-white text-center text-xs py-2 rounded-md font-semibold"
+>
+Buy Now
+</a>
+
+</div>
+
+
+{/* Product 4 - Hisense */}
+
+<div className="bg-gray-100 rounded-xl p-3 flex flex-col">
+
+<img
+src="/images/design-mode/hisense.png"
+className="w-full object-contain h-36 mb-2"
+/>
+
+<div className="text-[10px] text-gray-500 mb-1">
+Hisense
+</div>
+
+<div className="text-xs font-semibold text-gray-900 mb-1 leading-snug">
+Hisense 65" Q6QAU 4K QLED Smart TV (2025)
+</div>
+
+<div className="flex items-center text-yellow-400 text-xs mb-2">
+★★★★☆
+<span className="text-gray-500 ml-1">4.5</span>
+</div>
+
+
+<div className="relative border border-black">
+
+<div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-600 text-white text-[9px] px-2 py-[2px] font-bold">
+TICKET
+</div>
+
+<div className="bg-[#FFF200] text-center py-2">
+
+<div className="text-[10px] line-through text-gray-700">
+A$867
+</div>
+
+<div className="text-lg font-extrabold text-red-600">
+A$763
+</div>
+
+</div>
+
+<div className="bg-red-600 text-white text-center text-[10px] py-1">
+A$104 OFF
+</div>
+
+</div>
+
+
+<a
+href="https://www.jbhifi.com.au/products/hisense-65-q6qau-4k-qled-smart-tv-2025"
+target="_blank"
+className="mt-3 bg-green-600 text-white text-center text-xs py-2 rounded-md font-semibold"
+>
+Buy Now
+</a>
+
+</div>
+
+
+</div>
+
+
+{/* Explore More */}
+
+<a
+href="https://www.jbhifi.com.au/collections/this-weeks-hottest-deals"
+target="_blank"
+className="block mt-5 bg-[#FFF200] text-black text-center py-3 rounded-xl text-sm font-semibold"
+>
+Explore More Deals
+</a>
+
+</div>          
          {/* Receipt Actions */}
 
 <div className="bg-white rounded-2xl border border-gray-200 shadow-md mx-3 mt-4 p-4 font-poppins">
