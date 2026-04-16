@@ -944,17 +944,23 @@ Powered by RDEP
 
 <div className="flex items-center justify-between mb-4">
 
-<h3 className="text-lg font-bold flex items-center text-black">
-  <ShoppingBagIcon className="mr-2 h-5 w-5 text-[#E31E24]" />
+<div className="flex items-center">
+
+<div className="w-8 h-8 bg-[#FFF200] rounded-lg flex items-center justify-center mr-3">
+  <ShoppingBagIcon className="h-4 w-4 text-black" />
+</div>
+
+<h3 className="text-lg font-bold text-black">
   Purchased Products
 </h3>
 
-<span className="text-xs font-bold border border-[#E31E24] text-white bg-[#E31E24] px-2 py-1 rounded-full">
+</div>
+
+<span className="text-xs font-bold bg-[#FFF200] text-black px-2 py-1 rounded-full">
   {currentReceipt.items.length} items
 </span>
 
 </div>
-
 
 {/* Product List */}
 
