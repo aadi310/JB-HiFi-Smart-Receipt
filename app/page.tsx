@@ -174,7 +174,7 @@ export default function Home() {
   return "CR" + Math.floor(100000 + Math.random() * 900000)
 }
 
-  const customerName = "Madhav"
+  const customerName = "Alex"
 
   // Carousel refs and APIs
   const [promoApi, setPromoApi] = useState<CarouselApi>()
